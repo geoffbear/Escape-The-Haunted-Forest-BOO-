@@ -98,5 +98,24 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
                 return ResourceManager.GetStream("IntroMusic", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream KnockKnock {
+            get {
+                return ResourceManager.GetStream("KnockKnock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RedArrow {
+            get {
+                object obj = ResourceManager.GetObject("RedArrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

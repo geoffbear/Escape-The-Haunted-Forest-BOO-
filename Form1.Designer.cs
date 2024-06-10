@@ -35,6 +35,7 @@
             this.IntroTimer = new System.Windows.Forms.Timer(this.components);
             this.EnterButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
+            this.knockTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // TitleLabel
@@ -53,12 +54,13 @@
             // 
             // IntroTimer
             // 
-            this.IntroTimer.Interval = 1000;
+            this.IntroTimer.Interval = 15000;
             this.IntroTimer.Tick += new System.EventHandler(this.IntroTimer_Tick);
             // 
             // EnterButton
             // 
             this.EnterButton.BackColor = System.Drawing.Color.Transparent;
+            this.EnterButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EnterButton.ForeColor = System.Drawing.Color.Black;
             resources.ApplyResources(this.EnterButton, "EnterButton");
             this.EnterButton.Name = "EnterButton";
@@ -68,10 +70,17 @@
             // ExitButton
             // 
             this.ExitButton.BackColor = System.Drawing.Color.Transparent;
-            this.ExitButton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ExitButton.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.RedArrow;
             resources.ApplyResources(this.ExitButton, "ExitButton");
+            this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ExitButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.UseVisualStyleBackColor = false;
+            // 
+            // knockTimer
+            // 
+            this.knockTimer.Interval = 2000;
+            this.knockTimer.Tick += new System.EventHandler(this.knockTimer_Tick);
             // 
             // Intro
             // 
@@ -96,6 +105,7 @@
         private System.Windows.Forms.Timer IntroTimer;
         private System.Windows.Forms.Button EnterButton;
         private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Timer knockTimer;
     }
 }
 
