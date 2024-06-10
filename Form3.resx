@@ -117,29 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Haunted Forest Intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Haunted Forest Intro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="KnockKnock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\KnockKnock.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="EscapeRoom1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EscapeRoom1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IntroMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IntroMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="EscapeRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EscapeRoom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EscapeRoomDoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EscapeRoomDoor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RedArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RedArrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

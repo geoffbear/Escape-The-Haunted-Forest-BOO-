@@ -73,6 +73,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EscapeRoom1 {
+            get {
+                object obj = ResourceManager.GetObject("EscapeRoom1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EscapeRoomDoor {
             get {
                 object obj = ResourceManager.GetObject("EscapeRoomDoor", resourceCulture);
@@ -114,6 +124,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         internal static System.Drawing.Bitmap RedArrow {
             get {
                 object obj = ResourceManager.GetObject("RedArrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Transparent {
+            get {
+                object obj = ResourceManager.GetObject("Transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

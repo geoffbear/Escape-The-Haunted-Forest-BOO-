@@ -11,39 +11,60 @@ using System.Windows.Forms;
 
 namespace Escape_The_Haunted_Forest__BOO__
 {
-    public partial class Intro : Form
+    public partial class introForm : Form
     {
-        public Intro()
+        //public static bool back = false;
+        public introForm()
         {
             InitializeComponent();
         }
+        
         SoundPlayer introMusic = new SoundPlayer(Properties.Resources.IntroMusic);
         SoundPlayer knockKnock = new SoundPlayer(Properties.Resources.KnockKnock);
         private void Intro_Load(object sender, EventArgs e)
         {
+
             introMusic.Play();
             IntroTimer.Start();
+            
+            //if (back)
+            {
+                introMusic.Stop();
+                enterBtn.Visible = true;
+                exitbtn.Visible = true;
+            }
         }
 
         private void IntroTimer_Tick(object sender, EventArgs e)
         {
-            EnterButton.Visible = true;
-            ExitButton.Visible = true;
+            enterBtn.Visible = true;
+            exitbtn.Visible = true;
             IntroTimer.Stop();
         }
 
         private void EnterButton_Click(object sender, EventArgs e)
         {
             knockKnock.Play();
+            knockTimer.Start();
         }
 
         private void knockTimer_Tick(object sender, EventArgs e)
         {
-            //formGameplay formGameplay = new formGameplay();
-            //this.Hide();
-            //formGameplay.ShowDialog();
-            //this.Show();
-            //this.Dispose();
-            }
+            knockTimer.Stop();
+            gameplayForm gameplayForm = new gameplayForm();
+            this.Hide();
+            gameplayForm.ShowDialog();
+            this.Show();
+            this.Dispose();
+        }
+
+        private void exitbtn_Click(object sender, EventArgs e)
+        {
+            exitPrompt exitPrompt = new exitPrompt();
+            this.Hide();
+            exitPrompt.ShowDialog();
+            this.Show();
+            this.Dispose();
+        }
     }
 }

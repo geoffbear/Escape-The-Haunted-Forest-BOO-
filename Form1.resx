@@ -118,132 +118,132 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="TitleLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="titleTxt.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="TitleLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="titleTxt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Ravie, 27.75pt</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="TitleLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="titleTxt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="TitleLabel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="titleTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 9</value>
   </data>
-  <data name="TitleLabel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="titleTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>739, 50</value>
   </data>
-  <data name="TitleLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="titleTxt.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="TitleLabel.Text" xml:space="preserve">
+  <data name="titleTxt.Text" xml:space="preserve">
     <value>Escape The Haunted Mansion</value>
   </data>
-  <data name="&gt;&gt;TitleLabel.Name" xml:space="preserve">
-    <value>TitleLabel</value>
+  <data name="&gt;&gt;titleTxt.Name" xml:space="preserve">
+    <value>titleTxt</value>
   </data>
-  <data name="&gt;&gt;TitleLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;titleTxt.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TitleLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;titleTxt.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;TitleLabel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;titleTxt.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="SubtitleLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="subtitleTxt.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="SubtitleLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="subtitleTxt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Ravie, 14.25pt</value>
   </data>
-  <data name="SubtitleLabel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="subtitleTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>288, 483</value>
   </data>
-  <data name="SubtitleLabel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="subtitleTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>262, 26</value>
   </data>
-  <data name="SubtitleLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="subtitleTxt.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="SubtitleLabel.Text" xml:space="preserve">
+  <data name="subtitleTxt.Text" xml:space="preserve">
     <value>Enter if you dare...</value>
   </data>
-  <data name="&gt;&gt;SubtitleLabel.Name" xml:space="preserve">
-    <value>SubtitleLabel</value>
+  <data name="&gt;&gt;subtitleTxt.Name" xml:space="preserve">
+    <value>subtitleTxt</value>
   </data>
-  <data name="&gt;&gt;SubtitleLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;subtitleTxt.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;SubtitleLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;subtitleTxt.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;SubtitleLabel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;subtitleTxt.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <metadata name="IntroTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="EnterButton.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="enterBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>354, 243</value>
   </data>
-  <data name="EnterButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="enterBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 23</value>
   </data>
-  <data name="EnterButton.TabIndex" type="System.Int32, mscorlib">
+  <data name="enterBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="EnterButton.Text" xml:space="preserve">
+  <data name="enterBtn.Text" xml:space="preserve">
     <value>Click to Knock</value>
   </data>
-  <data name="EnterButton.Visible" type="System.Boolean, mscorlib">
+  <data name="enterBtn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;EnterButton.Name" xml:space="preserve">
-    <value>EnterButton</value>
+  <data name="&gt;&gt;enterBtn.Name" xml:space="preserve">
+    <value>enterBtn</value>
   </data>
-  <data name="&gt;&gt;EnterButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;enterBtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;EnterButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;enterBtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;EnterButton.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;enterBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="ExitButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="exitbtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="ExitButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="exitbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="exitbtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 483</value>
   </data>
-  <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="exitbtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 63</value>
   </data>
-  <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
+  <data name="exitbtn.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="ExitButton.Text" xml:space="preserve">
+  <data name="exitbtn.Text" xml:space="preserve">
     <value>Click to Exit</value>
   </data>
-  <data name="ExitButton.Visible" type="System.Boolean, mscorlib">
+  <data name="exitbtn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;ExitButton.Name" xml:space="preserve">
-    <value>ExitButton</value>
+  <data name="&gt;&gt;exitbtn.Name" xml:space="preserve">
+    <value>exitbtn</value>
   </data>
-  <data name="&gt;&gt;ExitButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;exitbtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ExitButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;exitbtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;ExitButton.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;exitbtn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="knockTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -280,7 +280,7 @@
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Intro</value>
+    <value>introForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

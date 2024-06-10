@@ -16,7 +16,7 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Intro());
+            Application.Run(new introForm());
         }
     }
 }

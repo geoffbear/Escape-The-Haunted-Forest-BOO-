@@ -1,6 +1,6 @@
 ﻿namespace Escape_The_Haunted_Forest__BOO__
 {
-    partial class Intro
+    partial class introForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,69 +29,70 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Intro));
-            this.TitleLabel = new System.Windows.Forms.Label();
-            this.SubtitleLabel = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(introForm));
+            this.titleTxt = new System.Windows.Forms.Label();
+            this.subtitleTxt = new System.Windows.Forms.Label();
             this.IntroTimer = new System.Windows.Forms.Timer(this.components);
-            this.EnterButton = new System.Windows.Forms.Button();
-            this.ExitButton = new System.Windows.Forms.Button();
+            this.enterBtn = new System.Windows.Forms.Button();
+            this.exitbtn = new System.Windows.Forms.Button();
             this.knockTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // TitleLabel
+            // titleTxt
             // 
-            resources.ApplyResources(this.TitleLabel, "TitleLabel");
-            this.TitleLabel.BackColor = System.Drawing.Color.Transparent;
-            this.TitleLabel.ForeColor = System.Drawing.Color.MistyRose;
-            this.TitleLabel.Name = "TitleLabel";
+            resources.ApplyResources(this.titleTxt, "titleTxt");
+            this.titleTxt.BackColor = System.Drawing.Color.Transparent;
+            this.titleTxt.ForeColor = System.Drawing.Color.MistyRose;
+            this.titleTxt.Name = "titleTxt";
             // 
-            // SubtitleLabel
+            // subtitleTxt
             // 
-            resources.ApplyResources(this.SubtitleLabel, "SubtitleLabel");
-            this.SubtitleLabel.BackColor = System.Drawing.Color.Transparent;
-            this.SubtitleLabel.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.SubtitleLabel.Name = "SubtitleLabel";
+            resources.ApplyResources(this.subtitleTxt, "subtitleTxt");
+            this.subtitleTxt.BackColor = System.Drawing.Color.Transparent;
+            this.subtitleTxt.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.subtitleTxt.Name = "subtitleTxt";
             // 
             // IntroTimer
             // 
             this.IntroTimer.Interval = 15000;
             this.IntroTimer.Tick += new System.EventHandler(this.IntroTimer_Tick);
             // 
-            // EnterButton
+            // enterBtn
             // 
-            this.EnterButton.BackColor = System.Drawing.Color.Transparent;
-            this.EnterButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.EnterButton.ForeColor = System.Drawing.Color.Black;
-            resources.ApplyResources(this.EnterButton, "EnterButton");
-            this.EnterButton.Name = "EnterButton";
-            this.EnterButton.UseVisualStyleBackColor = false;
-            this.EnterButton.Click += new System.EventHandler(this.EnterButton_Click);
+            this.enterBtn.BackColor = System.Drawing.Color.Transparent;
+            this.enterBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.enterBtn.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.enterBtn, "enterBtn");
+            this.enterBtn.Name = "enterBtn";
+            this.enterBtn.UseVisualStyleBackColor = false;
+            this.enterBtn.Click += new System.EventHandler(this.EnterButton_Click);
             // 
-            // ExitButton
+            // exitbtn
             // 
-            this.ExitButton.BackColor = System.Drawing.Color.Transparent;
-            this.ExitButton.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.RedArrow;
-            resources.ApplyResources(this.ExitButton, "ExitButton");
-            this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ExitButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ExitButton.Name = "ExitButton";
-            this.ExitButton.UseVisualStyleBackColor = false;
+            this.exitbtn.BackColor = System.Drawing.Color.Transparent;
+            this.exitbtn.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.RedArrow;
+            resources.ApplyResources(this.exitbtn, "exitbtn");
+            this.exitbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.exitbtn.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.exitbtn.Name = "exitbtn";
+            this.exitbtn.UseVisualStyleBackColor = false;
+            this.exitbtn.Click += new System.EventHandler(this.exitbtn_Click);
             // 
             // knockTimer
             // 
-            this.knockTimer.Interval = 2000;
+            this.knockTimer.Interval = 1000;
             this.knockTimer.Tick += new System.EventHandler(this.knockTimer_Tick);
             // 
-            // Intro
+            // introForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.EscapeRoomDoor;
-            this.Controls.Add(this.ExitButton);
-            this.Controls.Add(this.EnterButton);
-            this.Controls.Add(this.SubtitleLabel);
-            this.Controls.Add(this.TitleLabel);
-            this.Name = "Intro";
+            this.Controls.Add(this.exitbtn);
+            this.Controls.Add(this.enterBtn);
+            this.Controls.Add(this.subtitleTxt);
+            this.Controls.Add(this.titleTxt);
+            this.Name = "introForm";
             this.Load += new System.EventHandler(this.Intro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -100,11 +101,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label TitleLabel;
-        private System.Windows.Forms.Label SubtitleLabel;
+        private System.Windows.Forms.Label titleTxt;
+        private System.Windows.Forms.Label subtitleTxt;
         private System.Windows.Forms.Timer IntroTimer;
-        private System.Windows.Forms.Button EnterButton;
-        private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Button enterBtn;
+        private System.Windows.Forms.Button exitbtn;
         private System.Windows.Forms.Timer knockTimer;
     }
 }

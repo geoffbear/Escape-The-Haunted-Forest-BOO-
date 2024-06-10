@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Escape_The_Haunted_Forest__BOO__
 {
-    public partial class GameplayForm : Form
+    public partial class gameplayForm : Form
     {
-        public GameplayForm()
+        public gameplayForm()
         {
             InitializeComponent();
+        }
+
+        private void globePic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butterflyPic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void photoPic_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
