@@ -19,7 +19,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void globePic_Click(object sender, EventArgs e)
         {
-
+            globeGameForm globeGameForm = new globeGameForm();
+            this.Hide();
+            globeGameForm.ShowDialog();
+            this.Show();
+            this.Dispose();
         }
 
         private void butterflyPic_Click(object sender, EventArgs e)
