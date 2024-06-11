@@ -8,30 +8,34 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Media;
 
 namespace Escape_The_Haunted_Forest__BOO__
-{
+{ 
     public partial class introForm : Form
-    {
-        //public static bool back = false;
+    { 
         public introForm()
         {
             InitializeComponent();
         }
-        
+
+        //public bool comeback = false;
         SoundPlayer introMusic = new SoundPlayer(Properties.Resources.IntroMusic);
         SoundPlayer knockKnock = new SoundPlayer(Properties.Resources.KnockKnock);
+        
         private void Intro_Load(object sender, EventArgs e)
         {
-
-            introMusic.Play();
-            IntroTimer.Start();
-            
-            //if (back)
+            //if (!comeback)
             {
-                introMusic.Stop();
-                enterBtn.Visible = true;
-                exitbtn.Visible = true;
+                introMusic.Play();
+                IntroTimer.Start();
+            }
+           
+            
+            //if (comeback)
+            {
+                //enterBtn.Visible = true;
+                //exitbtn.Visible = true;
             }
         }
 
@@ -51,15 +55,16 @@ namespace Escape_The_Haunted_Forest__BOO__
         private void knockTimer_Tick(object sender, EventArgs e)
         {
             knockTimer.Stop();
-            gameplayForm gameplayForm = new gameplayForm();
+            loreForm loreForm = new loreForm();
             this.Hide();
-            gameplayForm.ShowDialog();
+            loreForm.ShowDialog();
             this.Show();
             this.Dispose();
         }
 
         private void exitbtn_Click(object sender, EventArgs e)
         {
+            introMusic.Stop();
             exitPrompt exitPrompt = new exitPrompt();
             this.Hide();
             exitPrompt.ShowDialog();
