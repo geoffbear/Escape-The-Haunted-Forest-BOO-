@@ -18,7 +18,7 @@ namespace Escape_The_Haunted_Forest__BOO__
         }
         private void noBtn_Click(object sender, EventArgs e)
         {
-            //comeback = true;
+            introForm.comeback = true;
             introForm introForm = new introForm();
             this.Hide();
             introForm.ShowDialog();

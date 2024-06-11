@@ -13,13 +13,13 @@ using System.Windows.Media;
 namespace Escape_The_Haunted_Forest__BOO__
 { 
     public partial class introForm : Form
-    { 
+    {
+        public static bool comeback = false;
         public introForm()
         {
             InitializeComponent();
         }
 
-        //public bool comeback = false;
         SoundPlayer introMusic = new SoundPlayer(Properties.Resources.IntroMusic);
         SoundPlayer knockKnock = new SoundPlayer(Properties.Resources.KnockKnock);
         
