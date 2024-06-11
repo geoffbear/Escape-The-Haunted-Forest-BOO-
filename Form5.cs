@@ -20,7 +20,7 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void globeGameForm_Load(object sender, EventArgs e)
         {
-            SoundPlayer globeGameMusic = new SoundPlayer();
+            SoundPlayer globeGameMusic = new SoundPlayer(Properties.);
         }
     }
 }
