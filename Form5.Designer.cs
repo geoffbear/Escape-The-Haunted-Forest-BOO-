@@ -39,6 +39,7 @@
             this.japanPic = new System.Windows.Forms.PictureBox();
             this.infoTxt = new System.Windows.Forms.Label();
             this.countryTxt = new System.Windows.Forms.Label();
+            this.confettiPic = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.canadaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.russiaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brazilPic)).BeginInit();
@@ -48,6 +49,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.madagascarPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.australiaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.japanPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.confettiPic)).BeginInit();
             this.SuspendLayout();
             // 
             // canadaPic
@@ -152,20 +154,34 @@
             // infoTxt
             // 
             this.infoTxt.AutoSize = true;
-            this.infoTxt.Location = new System.Drawing.Point(12, 561);
+            this.infoTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.infoTxt.Location = new System.Drawing.Point(12, 537);
             this.infoTxt.Name = "infoTxt";
-            this.infoTxt.Size = new System.Drawing.Size(104, 13);
+            this.infoTxt.Size = new System.Drawing.Size(307, 37);
             this.infoTxt.TabIndex = 9;
             this.infoTxt.Text = "Click on the country:";
             // 
             // countryTxt
             // 
             this.countryTxt.AutoSize = true;
-            this.countryTxt.Location = new System.Drawing.Point(157, 561);
+            this.countryTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.countryTxt.Location = new System.Drawing.Point(351, 537);
             this.countryTxt.Name = "countryTxt";
-            this.countryTxt.Size = new System.Drawing.Size(42, 13);
+            this.countryTxt.Size = new System.Drawing.Size(122, 37);
             this.countryTxt.TabIndex = 10;
             this.countryTxt.Text = "country";
+            // 
+            // confettiPic
+            // 
+            this.confettiPic.BackColor = System.Drawing.Color.Transparent;
+            this.confettiPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.Confetti;
+            this.confettiPic.Enabled = false;
+            this.confettiPic.Location = new System.Drawing.Point(3, 0);
+            this.confettiPic.Name = "confettiPic";
+            this.confettiPic.Size = new System.Drawing.Size(834, 586);
+            this.confettiPic.TabIndex = 11;
+            this.confettiPic.TabStop = false;
+            this.confettiPic.Visible = false;
             // 
             // globeGameForm
             // 
@@ -174,6 +190,7 @@
             this.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.GlobeGameBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(839, 583);
+            this.Controls.Add(this.confettiPic);
             this.Controls.Add(this.countryTxt);
             this.Controls.Add(this.infoTxt);
             this.Controls.Add(this.japanPic);
@@ -200,6 +217,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.madagascarPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.australiaPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.japanPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.confettiPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,5 +236,6 @@
         private System.Windows.Forms.PictureBox japanPic;
         private System.Windows.Forms.Label infoTxt;
         private System.Windows.Forms.Label countryTxt;
+        private System.Windows.Forms.PictureBox confettiPic;
     }
 }

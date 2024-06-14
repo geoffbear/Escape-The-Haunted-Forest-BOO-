@@ -6,6 +6,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Media;
+using System.Security.RightsManagement;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,11 +19,13 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             InitializeComponent();
         }
+        SoundPlayer globeGameMusic = new SoundPlayer(Properties.Resources.globeGameMusic1);
+        SoundPlayer confettiSound = new SoundPlayer(Properties.Resources.Confetti1);
         Random generator = new Random();
         int country, correct = 0, wrong = 0;
+
         private void globeGameForm_Load(object sender, EventArgs e)
         { 
-            SoundPlayer globeGameMusic = new SoundPlayer(Properties.Resources.globeGameMusic1);
             globeGameMusic.Play();
             newCountry();
             //Canada = 0, Brazil = 1, Russia = 2, Mongolia = 3, India = 4, Egypt = 5, Madagascar = 6, Japan = 7, Australia = 8.
@@ -165,7 +168,8 @@ namespace Escape_The_Haunted_Forest__BOO__
         }
 
         private void newCountry() //Refreshes country
-        {
+        { 
+
             country = generator.Next(0, 9);
 
             if (country == 0)
@@ -194,6 +198,19 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             else if (country == 8)
                 countryTxt.Text = "Australia";
+
+            if (correct == 5)
+            {
+                globeGameMusic.Stop();
+                confettiSound.Play();
+                confettiPic.Visible = true;
+                confettiPic.Enabled = true;
+            }
+
+            if (wrong == 5)
+            {
+
+            }
 
         }
     }

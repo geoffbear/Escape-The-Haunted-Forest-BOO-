@@ -133,6 +133,9 @@
   <data name="globeGameMusic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\globeGameMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="PhotoTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PhotoTrophy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PotOGold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PotOGold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,7 +169,10 @@
   <data name="ButterflyTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButterflyTrophy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PhotoTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PhotoTrophy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Confetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Confetti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Confetti1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Confetti.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

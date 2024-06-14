@@ -159,5 +159,11 @@
   <ItemGroup>
     <None Include="Resources\PhotoTrophy.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confetti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confetti.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
