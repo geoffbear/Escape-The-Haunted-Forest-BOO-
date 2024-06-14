@@ -77,6 +77,7 @@
             this.Name = "exitPrompt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Confirmation";
+            this.Load += new System.EventHandler(this.exitPrompt_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

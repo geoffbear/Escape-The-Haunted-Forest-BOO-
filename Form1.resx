@@ -123,17 +123,17 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="titleTxt.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 27.75pt</value>
+    <value>MS Gothic, 27.75pt, style=Bold</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="titleTxt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="titleTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 9</value>
+    <value>155, 24</value>
   </data>
   <data name="titleTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>523, 42</value>
+    <value>537, 37</value>
   </data>
   <data name="titleTxt.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -157,19 +157,22 @@
     <value>True</value>
   </data>
   <data name="subtitleTxt.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>MV Boli, 14.25pt</value>
+  </data>
+  <data name="subtitleTxt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="subtitleTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 483</value>
+    <value>329, 483</value>
   </data>
   <data name="subtitleTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 24</value>
+    <value>168, 25</value>
   </data>
   <data name="subtitleTxt.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="subtitleTxt.Text" xml:space="preserve">
-    <value>Enter if you dare...</value>
+    <value>Enter if you dare</value>
   </data>
   <data name="&gt;&gt;subtitleTxt.Name" xml:space="preserve">
     <value>subtitleTxt</value>
@@ -186,8 +189,11 @@
   <metadata name="IntroTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="enterBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="enterBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>354, 243</value>
+    <value>360, 243</value>
   </data>
   <data name="enterBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 23</value>

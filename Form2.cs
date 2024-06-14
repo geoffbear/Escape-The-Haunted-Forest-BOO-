@@ -17,23 +17,23 @@ namespace Escape_The_Haunted_Forest__BOO__
             InitializeComponent();
         }
 
-        private void globePic_Click(object sender, EventArgs e)
+        private void gameplayForm_Load(object sender, EventArgs e)
         {
-            globeGameForm globeGameForm = new globeGameForm();
+
+        }
+
+        private void photoPic_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void globeGamePic_Click(object sender, EventArgs e)
+        {
+            globeGameForm globeGame = new globeGameForm();
             this.Hide();
-            globeGameForm.ShowDialog();
+            globeGame.ShowDialog();
             this.Show();
             this.Dispose();
-        }
-
-        private void butterflyPic_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void photoPic_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

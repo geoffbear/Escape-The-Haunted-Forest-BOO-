@@ -49,12 +49,13 @@
             // 
             resources.ApplyResources(this.subtitleTxt, "subtitleTxt");
             this.subtitleTxt.BackColor = System.Drawing.Color.Transparent;
+            this.subtitleTxt.Cursor = System.Windows.Forms.Cursors.Default;
             this.subtitleTxt.ForeColor = System.Drawing.Color.SaddleBrown;
             this.subtitleTxt.Name = "subtitleTxt";
             // 
             // IntroTimer
             // 
-            this.IntroTimer.Interval = 15000;
+            this.IntroTimer.Interval = 10000;
             this.IntroTimer.Tick += new System.EventHandler(this.IntroTimer_Tick);
             // 
             // enterBtn

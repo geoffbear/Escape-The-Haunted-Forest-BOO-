@@ -25,17 +25,17 @@ namespace Escape_The_Haunted_Forest__BOO__
         
         private void Intro_Load(object sender, EventArgs e)
         {
-            //if (!comeback)
+            if (!comeback)
             {
                 introMusic.Play();
                 IntroTimer.Start();
             }
            
             
-            //if (comeback)
+            if (comeback)
             {
-                //enterBtn.Visible = true;
-                //exitbtn.Visible = true;
+                enterBtn.Visible = true;
+                exitbtn.Visible = true;
             }
         }
 
