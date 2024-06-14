@@ -35,10 +35,5 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
 
         }
-
-        private void gameplayForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

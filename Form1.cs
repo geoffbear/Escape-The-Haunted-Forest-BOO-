@@ -50,7 +50,6 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             knockKnock.Play();
             knockTimer.Start();
-           
         }
 
         private void knockTimer_Tick(object sender, EventArgs e)

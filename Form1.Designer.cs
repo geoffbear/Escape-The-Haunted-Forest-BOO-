@@ -70,6 +70,7 @@
             // exitbtn
             // 
             this.exitbtn.BackColor = System.Drawing.Color.Transparent;
+            this.exitbtn.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.RedArrow;
             resources.ApplyResources(this.exitbtn, "exitbtn");
             this.exitbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.exitbtn.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -86,6 +87,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.EscapeRoomDoor;
             this.Controls.Add(this.exitbtn);
             this.Controls.Add(this.enterBtn);
             this.Controls.Add(this.subtitleTxt);
