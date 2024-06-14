@@ -22,11 +22,6 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         }
 
-        private void photoPic_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void globeGamePic_Click(object sender, EventArgs e)
         {
             globeGameForm globeGame = new globeGameForm();
@@ -34,6 +29,11 @@ namespace Escape_The_Haunted_Forest__BOO__
             globeGame.ShowDialog();
             this.Show();
             this.Dispose();
+        }
+
+        private void photoPic_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

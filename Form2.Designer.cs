@@ -43,7 +43,7 @@
             this.photoPic.Size = new System.Drawing.Size(155, 144);
             this.photoPic.TabIndex = 0;
             this.photoPic.TabStop = false;
-            this.photoPic.Click += new System.EventHandler(this.photoPic_Click_1);
+            this.photoPic.Click += new System.EventHandler(this.photoPic_Click);
             // 
             // globeGamePic
             // 
