@@ -29,5 +29,10 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
 
         }
+
+        private void russiaPic_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
