@@ -150,5 +150,14 @@
   <ItemGroup>
     <None Include="Resources\globeGameMusic.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GlobeTrophy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButterflyTrophy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhotoTrophy.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
