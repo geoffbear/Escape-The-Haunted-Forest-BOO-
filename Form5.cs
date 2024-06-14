@@ -196,10 +196,5 @@ namespace Escape_The_Haunted_Forest__BOO__
                 countryTxt.Text = "Australia";
 
         }
-
-        private void russiaPic_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
