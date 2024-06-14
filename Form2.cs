@@ -19,12 +19,14 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void gameplayForm_Load(object sender, EventArgs e)
         {
+            if (introForm.globe == true)
+                globeTrophyPic.Visible = true;
 
-        }
+            if (introForm.butterfly == true)
+                butteflyTrophyPic.Visible = true;
 
-        private void photoPic_Click_1(object sender, EventArgs e)
-        {
-
+            if (introForm.photo == true)
+                photoTrophyPic.Visible = true;
         }
 
         private void globeGamePic_Click(object sender, EventArgs e)
@@ -34,6 +36,16 @@ namespace Escape_The_Haunted_Forest__BOO__
             globeGame.ShowDialog();
             this.Show();
             this.Dispose();
+        }
+
+        private void photoPic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butterflyGamePic_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

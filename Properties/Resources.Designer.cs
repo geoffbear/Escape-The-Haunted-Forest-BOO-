@@ -73,6 +73,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap ButterflyTrophy {
+            get {
+                object obj = ResourceManager.GetObject("ButterflyTrophy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap EscapeRoom {
             get {
                 object obj = ResourceManager.GetObject("EscapeRoom", resourceCulture);
@@ -132,6 +142,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap GlobeTrophy {
+            get {
+                object obj = ResourceManager.GetObject("GlobeTrophy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Haunted_Forest_Intro {
             get {
                 object obj = ResourceManager.GetObject("Haunted Forest Intro", resourceCulture);
@@ -163,6 +183,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         public static System.Drawing.Bitmap Leprechaun {
             get {
                 object obj = ResourceManager.GetObject("Leprechaun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap PhotoTrophy {
+            get {
+                object obj = ResourceManager.GetObject("PhotoTrophy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

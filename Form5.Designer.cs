@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.canadaPic = new System.Windows.Forms.PictureBox();
-            this.russiaPic = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.canadaPic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.russiaPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // canadaPic
@@ -45,16 +45,15 @@
             this.canadaPic.TabStop = false;
             this.canadaPic.Click += new System.EventHandler(this.canadaPic_Click);
             // 
-            // russiaPic
+            // pictureBox1
             // 
-            this.russiaPic.BackColor = System.Drawing.Color.Transparent;
-            this.russiaPic.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.russiaPic.Location = new System.Drawing.Point(439, 43);
-            this.russiaPic.Name = "russiaPic";
-            this.russiaPic.Size = new System.Drawing.Size(340, 145);
-            this.russiaPic.TabIndex = 1;
-            this.russiaPic.TabStop = false;
-            this.russiaPic.Click += new System.EventHandler(this.russiaPic_Click);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Location = new System.Drawing.Point(439, 43);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(340, 145);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // globeGameForm
             // 
@@ -63,22 +62,24 @@
             this.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.GlobeGameBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(839, 583);
-            this.Controls.Add(this.russiaPic);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.canadaPic);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "globeGameForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Globe Game";
             this.Load += new System.EventHandler(this.globeGameForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.canadaPic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.russiaPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox canadaPic;
-        private System.Windows.Forms.PictureBox russiaPic;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

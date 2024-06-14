@@ -15,6 +15,9 @@ namespace Escape_The_Haunted_Forest__BOO__
     public partial class introForm : Form
     {
         public static bool comeback = false;
+        public static bool globe = false;
+        public static bool butterfly = false;
+        public static bool photo = false;
         public introForm()
         {
             InitializeComponent();
