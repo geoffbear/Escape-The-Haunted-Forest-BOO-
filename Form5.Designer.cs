@@ -40,6 +40,8 @@
             this.infoTxt = new System.Windows.Forms.Label();
             this.countryTxt = new System.Windows.Forms.Label();
             this.confettiPic = new System.Windows.Forms.PictureBox();
+            this.wrongTxt = new System.Windows.Forms.Label();
+            this.wrongNumText = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.canadaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.russiaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brazilPic)).BeginInit();
@@ -176,12 +178,31 @@
             this.confettiPic.BackColor = System.Drawing.Color.Transparent;
             this.confettiPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.Confetti;
             this.confettiPic.Enabled = false;
-            this.confettiPic.Location = new System.Drawing.Point(3, 0);
+            this.confettiPic.Location = new System.Drawing.Point(-7, 0);
             this.confettiPic.Name = "confettiPic";
             this.confettiPic.Size = new System.Drawing.Size(834, 586);
             this.confettiPic.TabIndex = 11;
             this.confettiPic.TabStop = false;
             this.confettiPic.Visible = false;
+            // 
+            // wrongTxt
+            // 
+            this.wrongTxt.AutoSize = true;
+            this.wrongTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wrongTxt.Location = new System.Drawing.Point(308, 9);
+            this.wrongTxt.Name = "wrongTxt";
+            this.wrongTxt.Size = new System.Drawing.Size(141, 20);
+            this.wrongTxt.TabIndex = 12;
+            this.wrongTxt.Text = "Answers Incorrect:";
+            // 
+            // wrongNumText
+            // 
+            this.wrongNumText.AutoSize = true;
+            this.wrongNumText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wrongNumText.Location = new System.Drawing.Point(455, 9);
+            this.wrongNumText.Name = "wrongNumText";
+            this.wrongNumText.Size = new System.Drawing.Size(0, 20);
+            this.wrongNumText.TabIndex = 13;
             // 
             // globeGameForm
             // 
@@ -190,6 +211,8 @@
             this.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.GlobeGameBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(839, 583);
+            this.Controls.Add(this.wrongNumText);
+            this.Controls.Add(this.wrongTxt);
             this.Controls.Add(this.confettiPic);
             this.Controls.Add(this.countryTxt);
             this.Controls.Add(this.infoTxt);
@@ -208,6 +231,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Globe Game";
             this.Load += new System.EventHandler(this.globeGameForm_Load);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.globeGameForm_MouseClick);
             ((System.ComponentModel.ISupportInitialize)(this.canadaPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.russiaPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brazilPic)).EndInit();
@@ -237,5 +261,7 @@
         private System.Windows.Forms.Label infoTxt;
         private System.Windows.Forms.Label countryTxt;
         private System.Windows.Forms.PictureBox confettiPic;
+        private System.Windows.Forms.Label wrongTxt;
+        private System.Windows.Forms.Label wrongNumText;
     }
 }

@@ -152,6 +152,12 @@ namespace Escape_The_Haunted_Forest__BOO__
             }
         }
 
+        private void globeGameForm_MouseClick(object sender, MouseEventArgs e)
+        {
+            wrong++;
+            newCountry();
+        }
+
         private void australiaPic_Click(object sender, EventArgs e)
         {
             if (country == 8)
@@ -168,8 +174,8 @@ namespace Escape_The_Haunted_Forest__BOO__
         }
 
         private void newCountry() //Refreshes country
-        { 
-
+        {
+            wrongNumText.Text = wrong + "";
             country = generator.Next(0, 9);
 
             if (country == 0)

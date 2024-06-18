@@ -209,6 +209,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap LeprechaunCool {
+            get {
+                object obj = ResourceManager.GetObject("LeprechaunCool", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap PhotoTrophy {
             get {
                 object obj = ResourceManager.GetObject("PhotoTrophy", resourceCulture);
