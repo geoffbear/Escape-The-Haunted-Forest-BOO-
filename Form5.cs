@@ -215,7 +215,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             if (wrong == 5)
             {
-
+                loseForm lF = new loseForm();
+                this.Hide();
+                lF.ShowDialog();
+                this.Show();
+                this.Dispose();
             }
 
         }
