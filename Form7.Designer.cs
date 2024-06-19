@@ -33,6 +33,15 @@
             this.butterflyGameRules = new System.Windows.Forms.Label();
             this.picRules = new System.Windows.Forms.Label();
             this.continueButton = new System.Windows.Forms.Button();
+            this.picExamplePic = new System.Windows.Forms.PictureBox();
+            this.butterflyExamplePic = new System.Windows.Forms.PictureBox();
+            this.globeExamplePic = new System.Windows.Forms.PictureBox();
+            this.hintOne = new System.Windows.Forms.Label();
+            this.hintTwo = new System.Windows.Forms.Label();
+            this.hintThree = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.picExamplePic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.butterflyExamplePic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.globeExamplePic)).BeginInit();
             this.SuspendLayout();
             // 
             // ruleText
@@ -52,7 +61,7 @@
             // 
             this.globeGameRules.AutoSize = true;
             this.globeGameRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.globeGameRules.Location = new System.Drawing.Point(39, 125);
+            this.globeGameRules.Location = new System.Drawing.Point(39, 139);
             this.globeGameRules.Name = "globeGameRules";
             this.globeGameRules.Size = new System.Drawing.Size(535, 36);
             this.globeGameRules.TabIndex = 1;
@@ -63,21 +72,20 @@
             // 
             this.butterflyGameRules.AutoSize = true;
             this.butterflyGameRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butterflyGameRules.Location = new System.Drawing.Point(39, 203);
+            this.butterflyGameRules.Location = new System.Drawing.Point(39, 239);
             this.butterflyGameRules.Name = "butterflyGameRules";
             this.butterflyGameRules.Size = new System.Drawing.Size(474, 54);
             this.butterflyGameRules.TabIndex = 2;
             this.butterflyGameRules.Text = "In the butterfly puzzle, you will be given 6 black butterflies.\r\nLike a game of m" +
     "emory, you will need to match 3 pairs to win.\r\nGet 3 wrong, you fail.";
-            this.butterflyGameRules.Visible = false;
             // 
             // picRules
             // 
             this.picRules.AutoSize = true;
-            this.picRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.picRules.Location = new System.Drawing.Point(39, 327);
+            this.picRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.picRules.Location = new System.Drawing.Point(39, 413);
             this.picRules.Name = "picRules";
-            this.picRules.Size = new System.Drawing.Size(65, 18);
+            this.picRules.Size = new System.Drawing.Size(73, 18);
             this.picRules.TabIndex = 3;
             this.picRules.Text = "picRules";
             this.picRules.Visible = false;
@@ -92,11 +100,80 @@
             this.continueButton.UseVisualStyleBackColor = true;
             this.continueButton.Click += new System.EventHandler(this.continueButton_Click);
             // 
+            // picExamplePic
+            // 
+            this.picExamplePic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.PicExample;
+            this.picExamplePic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picExamplePic.Location = new System.Drawing.Point(661, 363);
+            this.picExamplePic.Name = "picExamplePic";
+            this.picExamplePic.Size = new System.Drawing.Size(139, 113);
+            this.picExamplePic.TabIndex = 7;
+            this.picExamplePic.TabStop = false;
+            this.picExamplePic.Visible = false;
+            // 
+            // butterflyExamplePic
+            // 
+            this.butterflyExamplePic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.ButterflyExample;
+            this.butterflyExamplePic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butterflyExamplePic.Location = new System.Drawing.Point(661, 217);
+            this.butterflyExamplePic.Name = "butterflyExamplePic";
+            this.butterflyExamplePic.Size = new System.Drawing.Size(139, 106);
+            this.butterflyExamplePic.TabIndex = 6;
+            this.butterflyExamplePic.TabStop = false;
+            this.butterflyExamplePic.Visible = false;
+            // 
+            // globeExamplePic
+            // 
+            this.globeExamplePic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.GlobeExample;
+            this.globeExamplePic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.globeExamplePic.Location = new System.Drawing.Point(661, 103);
+            this.globeExamplePic.Name = "globeExamplePic";
+            this.globeExamplePic.Size = new System.Drawing.Size(139, 81);
+            this.globeExamplePic.TabIndex = 5;
+            this.globeExamplePic.TabStop = false;
+            this.globeExamplePic.Visible = false;
+            // 
+            // hintOne
+            // 
+            this.hintOne.AutoSize = true;
+            this.hintOne.Location = new System.Drawing.Point(684, 139);
+            this.hintOne.Name = "hintOne";
+            this.hintOne.Size = new System.Drawing.Size(100, 13);
+            this.hintOne.TabIndex = 8;
+            this.hintOne.Text = "(Click to reveal hint)";
+            this.hintOne.Click += new System.EventHandler(this.hintOne_Click);
+            // 
+            // hintTwo
+            // 
+            this.hintTwo.AutoSize = true;
+            this.hintTwo.Location = new System.Drawing.Point(684, 264);
+            this.hintTwo.Name = "hintTwo";
+            this.hintTwo.Size = new System.Drawing.Size(100, 13);
+            this.hintTwo.TabIndex = 9;
+            this.hintTwo.Text = "(Click to reveal hint)";
+            this.hintTwo.Click += new System.EventHandler(this.hintTwo_Click);
+            // 
+            // hintThree
+            // 
+            this.hintThree.AutoSize = true;
+            this.hintThree.Location = new System.Drawing.Point(684, 417);
+            this.hintThree.Name = "hintThree";
+            this.hintThree.Size = new System.Drawing.Size(100, 13);
+            this.hintThree.TabIndex = 10;
+            this.hintThree.Text = "(Click to reveal hint)";
+            this.hintThree.Click += new System.EventHandler(this.hintThree_Click);
+            // 
             // rulesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(839, 583);
+            this.Controls.Add(this.hintThree);
+            this.Controls.Add(this.hintTwo);
+            this.Controls.Add(this.hintOne);
+            this.Controls.Add(this.picExamplePic);
+            this.Controls.Add(this.butterflyExamplePic);
+            this.Controls.Add(this.globeExamplePic);
             this.Controls.Add(this.continueButton);
             this.Controls.Add(this.picRules);
             this.Controls.Add(this.butterflyGameRules);
@@ -106,6 +183,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rules (Read Up)";
             this.Load += new System.EventHandler(this.rulesForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picExamplePic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.butterflyExamplePic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.globeExamplePic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -118,5 +198,11 @@
         private System.Windows.Forms.Label butterflyGameRules;
         private System.Windows.Forms.Label picRules;
         private System.Windows.Forms.Button continueButton;
+        private System.Windows.Forms.PictureBox globeExamplePic;
+        private System.Windows.Forms.PictureBox butterflyExamplePic;
+        private System.Windows.Forms.PictureBox picExamplePic;
+        private System.Windows.Forms.Label hintOne;
+        private System.Windows.Forms.Label hintTwo;
+        private System.Windows.Forms.Label hintThree;
     }
 }

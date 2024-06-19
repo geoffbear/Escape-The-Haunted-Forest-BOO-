@@ -73,6 +73,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap ButterflyExample {
+            get {
+                object obj = ResourceManager.GetObject("ButterflyExample", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap ButterflyTrophy {
             get {
                 object obj = ResourceManager.GetObject("ButterflyTrophy", resourceCulture);
@@ -134,6 +144,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         public static System.Drawing.Bitmap EscapeRoomDoor {
             get {
                 object obj = ResourceManager.GetObject("EscapeRoomDoor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap GlobeExample {
+            get {
+                object obj = ResourceManager.GetObject("GlobeExample", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -231,6 +251,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         public static System.Drawing.Bitmap PhotoTrophy {
             get {
                 object obj = ResourceManager.GetObject("PhotoTrophy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap PicExample {
+            get {
+                object obj = ResourceManager.GetObject("PicExample", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

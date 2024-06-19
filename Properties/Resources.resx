@@ -130,6 +130,9 @@
   <data name="GlobeTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GlobeTrophy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="GlobeExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GlobeExample.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EscapeRoom1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EscapeRoom1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,8 +157,8 @@
   <data name="Haunted Forest Intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Haunted Forest Intro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GlobeGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GlobeGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ButterflyExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButterflyExample.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Confetti1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Confetti.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -163,11 +166,20 @@
   <data name="KnockKnock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KnockKnock.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="ClownLaugh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClownLaugh.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="RedArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RedArrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Leprechaun" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leprechaun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeprechaunCool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LeprechaunCool.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GlobeGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GlobeGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IntroMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IntroMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -175,10 +187,7 @@
   <data name="ButterflyTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButterflyTrophy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LeprechaunCool" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LeprechaunCool.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ClownLaugh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ClownLaugh.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="PicExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PicExample.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

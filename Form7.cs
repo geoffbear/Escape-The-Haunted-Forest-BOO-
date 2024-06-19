@@ -30,5 +30,23 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             introForm.introMusic.PlayLooping();
         }
+
+        private void hintOne_Click(object sender, EventArgs e)
+        {
+            globeExamplePic.Visible = true;
+            hintOne.Visible = false;
+        }
+
+        private void hintTwo_Click(object sender, EventArgs e)
+        {
+            butterflyExamplePic.Visible = true;
+            hintTwo.Visible = false;
+        }
+
+        private void hintThree_Click(object sender, EventArgs e)
+        {
+            picExamplePic.Visible = true;
+            hintThree.Visible = false;
+        }
     }
 }
