@@ -81,6 +81,15 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream ClownLaugh {
+            get {
+                return ResourceManager.GetStream("ClownLaugh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap Confetti {

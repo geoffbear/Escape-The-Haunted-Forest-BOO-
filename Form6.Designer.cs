@@ -28,24 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.leprechaunPic = new System.Windows.Forms.PictureBox();
             this.loseMessageTxt = new System.Windows.Forms.Label();
             this.loseSubMessage = new System.Windows.Forms.Label();
-            this.loseTmr = new System.Windows.Forms.Timer(this.components);
+            this.leprechaunPic = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.leprechaunPic)).BeginInit();
             this.SuspendLayout();
-            // 
-            // leprechaunPic
-            // 
-            this.leprechaunPic.BackColor = System.Drawing.Color.Transparent;
-            this.leprechaunPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.LeprechaunCool;
-            this.leprechaunPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.leprechaunPic.Location = new System.Drawing.Point(0, -1);
-            this.leprechaunPic.Name = "leprechaunPic";
-            this.leprechaunPic.Size = new System.Drawing.Size(799, 451);
-            this.leprechaunPic.TabIndex = 0;
-            this.leprechaunPic.TabStop = false;
             // 
             // loseMessageTxt
             // 
@@ -69,12 +56,17 @@
             this.loseSubMessage.TabIndex = 2;
             this.loseSubMessage.Text = "Thanks for playing!\r\nWould you like to play again (type Y or N)";
             this.loseSubMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.loseSubMessage.Visible = false;
             // 
-            // loseTmr
+            // leprechaunPic
             // 
-            this.loseTmr.Interval = 1000;
-            this.loseTmr.Tick += new System.EventHandler(this.loseTmr_Tick);
+            this.leprechaunPic.BackColor = System.Drawing.Color.Transparent;
+            this.leprechaunPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.LeprechaunCool;
+            this.leprechaunPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.leprechaunPic.Location = new System.Drawing.Point(0, -1);
+            this.leprechaunPic.Name = "leprechaunPic";
+            this.leprechaunPic.Size = new System.Drawing.Size(799, 451);
+            this.leprechaunPic.TabIndex = 0;
+            this.leprechaunPic.TabStop = false;
             // 
             // loseForm
             // 
@@ -100,6 +92,5 @@
         private System.Windows.Forms.PictureBox leprechaunPic;
         private System.Windows.Forms.Label loseMessageTxt;
         private System.Windows.Forms.Label loseSubMessage;
-        private System.Windows.Forms.Timer loseTmr;
     }
 }
