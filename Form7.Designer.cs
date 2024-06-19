@@ -52,7 +52,7 @@
             // 
             this.globeGameRules.AutoSize = true;
             this.globeGameRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.globeGameRules.Location = new System.Drawing.Point(39, 106);
+            this.globeGameRules.Location = new System.Drawing.Point(39, 125);
             this.globeGameRules.Name = "globeGameRules";
             this.globeGameRules.Size = new System.Drawing.Size(535, 36);
             this.globeGameRules.TabIndex = 1;
@@ -62,19 +62,20 @@
             // butterflyGameRules
             // 
             this.butterflyGameRules.AutoSize = true;
-            this.butterflyGameRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butterflyGameRules.Location = new System.Drawing.Point(39, 174);
+            this.butterflyGameRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butterflyGameRules.Location = new System.Drawing.Point(39, 203);
             this.butterflyGameRules.Name = "butterflyGameRules";
-            this.butterflyGameRules.Size = new System.Drawing.Size(138, 18);
+            this.butterflyGameRules.Size = new System.Drawing.Size(474, 54);
             this.butterflyGameRules.TabIndex = 2;
-            this.butterflyGameRules.Text = "butterflyGameRules";
+            this.butterflyGameRules.Text = "In the butterfly puzzle, you will be given 6 black butterflies.\r\nLike a game of m" +
+    "emory, you will need to match 3 pairs to win.\r\nGet 3 wrong, you fail.";
             this.butterflyGameRules.Visible = false;
             // 
             // picRules
             // 
             this.picRules.AutoSize = true;
             this.picRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.picRules.Location = new System.Drawing.Point(39, 192);
+            this.picRules.Location = new System.Drawing.Point(39, 327);
             this.picRules.Name = "picRules";
             this.picRules.Size = new System.Drawing.Size(65, 18);
             this.picRules.TabIndex = 3;
