@@ -85,7 +85,7 @@
             // 
             // loreTimer
             // 
-            this.loreTimer.Interval = 15000;
+            this.loreTimer.Interval = 10000;
             this.loreTimer.Tick += new System.EventHandler(this.loreTimer_Tick);
             // 
             // potOGoldPic

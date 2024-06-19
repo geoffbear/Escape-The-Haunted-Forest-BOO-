@@ -18,12 +18,12 @@ namespace Escape_The_Haunted_Forest__BOO__
         public static bool globe = false;
         public static bool butterfly = false;
         public static bool photo = false;
+        public static SoundPlayer introMusic = new SoundPlayer(Properties.Resources.IntroMusic);
         public introForm()
         {
             InitializeComponent();
         }
 
-        SoundPlayer introMusic = new SoundPlayer(Properties.Resources.IntroMusic);
         SoundPlayer knockKnock = new SoundPlayer(Properties.Resources.KnockKnock);
         
         private void Intro_Load(object sender, EventArgs e)
@@ -58,9 +58,9 @@ namespace Escape_The_Haunted_Forest__BOO__
         private void knockTimer_Tick(object sender, EventArgs e)
         {
             knockTimer.Stop();
-            loreForm loreForm = new loreForm();
+            rulesForm rulesForm = new rulesForm();
             this.Hide();
-            loreForm.ShowDialog();
+            rulesForm.ShowDialog();
             this.Show();
             this.Dispose();
         }

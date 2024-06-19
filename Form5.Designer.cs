@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.canadaPic = new System.Windows.Forms.PictureBox();
             this.russiaPic = new System.Windows.Forms.PictureBox();
             this.brazilPic = new System.Windows.Forms.PictureBox();
@@ -42,6 +43,7 @@
             this.confettiPic = new System.Windows.Forms.PictureBox();
             this.wrongTxt = new System.Windows.Forms.Label();
             this.wrongNumText = new System.Windows.Forms.Label();
+            this.winTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.canadaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.russiaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brazilPic)).BeginInit();
@@ -204,6 +206,11 @@
             this.wrongNumText.Size = new System.Drawing.Size(0, 20);
             this.wrongNumText.TabIndex = 13;
             // 
+            // winTimer
+            // 
+            this.winTimer.Interval = 2500;
+            this.winTimer.Tick += new System.EventHandler(this.winTimer_Tick);
+            // 
             // globeGameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -263,5 +270,6 @@
         private System.Windows.Forms.PictureBox confettiPic;
         private System.Windows.Forms.Label wrongTxt;
         private System.Windows.Forms.Label wrongNumText;
+        private System.Windows.Forms.Timer winTimer;
     }
 }

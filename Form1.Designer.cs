@@ -55,7 +55,7 @@
             // 
             // IntroTimer
             // 
-            this.IntroTimer.Interval = 10000;
+            this.IntroTimer.Interval = 5500;
             this.IntroTimer.Tick += new System.EventHandler(this.IntroTimer_Tick);
             // 
             // enterBtn

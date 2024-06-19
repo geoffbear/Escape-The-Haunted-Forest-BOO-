@@ -158,6 +158,17 @@ namespace Escape_The_Haunted_Forest__BOO__
             newCountry();
         }
 
+        private void winTimer_Tick(object sender, EventArgs e)
+        {
+            winTimer.Enabled = false;
+            introForm.globe = true;
+            gameplayForm gameplayForm = new gameplayForm();
+            this.Hide();
+            gameplayForm.ShowDialog();
+            this.Show();
+            this.Dispose();
+        }
+
         private void australiaPic_Click(object sender, EventArgs e)
         {
             if (country == 8)
@@ -211,9 +222,10 @@ namespace Escape_The_Haunted_Forest__BOO__
                 confettiSound.Play();
                 confettiPic.Visible = true;
                 confettiPic.Enabled = true;
+                winTimer.Enabled = true;
             }
 
-            if (wrong == 5)
+            else if (wrong == 5)
             {
                 loseForm lF = new loseForm();
                 this.Hide();
