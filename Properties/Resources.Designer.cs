@@ -73,10 +73,29 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap ButterflyBlank {
+            get {
+                object obj = ResourceManager.GetObject("ButterflyBlank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap ButterflyExample {
             get {
                 object obj = ResourceManager.GetObject("ButterflyExample", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream ButterflyMusic {
+            get {
+                return ResourceManager.GetStream("ButterflyMusic", resourceCulture);
             }
         }
         
@@ -144,6 +163,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         public static System.Drawing.Bitmap EscapeRoomDoor {
             get {
                 object obj = ResourceManager.GetObject("EscapeRoomDoor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap FernBackground {
+            get {
+                object obj = ResourceManager.GetObject("FernBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
