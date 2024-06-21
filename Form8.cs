@@ -29,17 +29,17 @@ namespace Escape_The_Haunted_Forest__BOO__
             clicks++;
             if (colourRandomizerEnd[1] == 1)
             {
-
+                bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
             }
 
             else if (colourRandomizerEnd[1] == 2)
             {
-
+                bird1Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
             }
 
             else if (colourRandomizerEnd[1] == 3)
             {
-
+                bird1Pic.BackgroundImage = Properties.Resources.ButterflyRed;
             }
 
             if (clicks == 1)
@@ -59,17 +59,17 @@ namespace Escape_The_Haunted_Forest__BOO__
             clicks++;
             if (colourRandomizerEnd[2] == 1)
             {
-
+                bird2Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
             }
 
             else if (colourRandomizerEnd[2] == 2)
             {
-
+                bird2Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
             }
 
             else if (colourRandomizerEnd[2] == 3)
             {
-
+                bird2Pic.BackgroundImage= Properties.Resources.ButterflyRed;
             }
 
             if (clicks == 1)
@@ -88,17 +88,17 @@ namespace Escape_The_Haunted_Forest__BOO__
             clicks++;
             if (colourRandomizerEnd[3] == 1)
             {
-
+                bird3Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
             }
 
             else if (colourRandomizerEnd[3] == 2)
             {
-
+                bird3Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
             }
 
             else if (colourRandomizerEnd[3] == 3)
             {
-
+                bird3Pic.BackgroundImage = Properties.Resources.ButterflyRed;
             }
 
             if (clicks == 1)
@@ -117,17 +117,17 @@ namespace Escape_The_Haunted_Forest__BOO__
             clicks++;
             if (colourRandomizerEnd[4] == 1)
             {
-
+                bird4Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
             }
 
             else if (colourRandomizerEnd[4] == 2)
             {
-
+                bird4Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
             }
 
             else if (colourRandomizerEnd[4] == 3)
             {
-
+                bird4Pic.BackgroundImage = Properties.Resources.ButterflyRed;
             }
 
             if (clicks == 1)
@@ -147,17 +147,17 @@ namespace Escape_The_Haunted_Forest__BOO__
             clicks++;
             if (colourRandomizerEnd[5] == 1)
             {
-
+                bird5Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
             }
 
             else if (colourRandomizerEnd[5] == 2)
             {
-
+                bird5Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
             }
 
             else if (colourRandomizerEnd[5] == 3)
             {
-
+                bird5Pic.BackgroundImage = Properties.Resources.ButterflyRed;
             }
 
             if (clicks == 1)
@@ -171,27 +171,22 @@ namespace Escape_The_Haunted_Forest__BOO__
             }
         }
 
-        private void randomGeneratorTimer_Tick(object sender, EventArgs e)
-        {
-            randomGeneratorTimer.Enabled = false;
-        }
-
         private void bird6Pic_Click(object sender, EventArgs e)
         {
             clicks++;
             if (colourRandomizerEnd[6] == 1)
             {
-
+                bird6Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
             }
 
             else if (colourRandomizerEnd[6] == 2)
             {
-
+                bird6Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
             }
 
             else if (colourRandomizerEnd[6] == 3)
             {
-
+                bird6Pic.BackgroundImage = Properties.Resources.ButterflyRed;
             }
 
             if (clicks == 1)
@@ -223,7 +218,7 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             while (colourRandomizerStart.Count > 0)
             {
-                random = generator.Next(0, (colourRandomizerStart.Last() + 1));
+                random = generator.Next(1, (colourRandomizerStart.Last() + 1));
                 colourRandomizerStart.Remove(random);
                 colourRandomizerEnd.Add(random);
             }

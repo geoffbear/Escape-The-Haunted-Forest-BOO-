@@ -81,7 +81,7 @@
             // 
             // knockTimer
             // 
-            this.knockTimer.Interval = 1000;
+            this.knockTimer.Interval = 1350;
             this.knockTimer.Tick += new System.EventHandler(this.knockTimer_Tick);
             // 
             // introForm

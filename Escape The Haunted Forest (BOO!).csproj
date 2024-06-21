@@ -128,7 +128,7 @@
       <DependentUpon>Form8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
+      <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -215,6 +215,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ButterflyBlank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButterflyBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButterflyGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButterflyRed.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

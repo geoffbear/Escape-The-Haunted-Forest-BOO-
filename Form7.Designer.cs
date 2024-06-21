@@ -139,9 +139,9 @@
             this.hintOne.AutoSize = true;
             this.hintOne.Location = new System.Drawing.Point(684, 139);
             this.hintOne.Name = "hintOne";
-            this.hintOne.Size = new System.Drawing.Size(100, 13);
+            this.hintOne.Size = new System.Drawing.Size(103, 13);
             this.hintOne.TabIndex = 8;
-            this.hintOne.Text = "(Click to reveal hint)";
+            this.hintOne.Text = "(Click to reveal clue)";
             this.hintOne.Click += new System.EventHandler(this.hintOne_Click);
             // 
             // hintTwo
@@ -149,9 +149,9 @@
             this.hintTwo.AutoSize = true;
             this.hintTwo.Location = new System.Drawing.Point(684, 264);
             this.hintTwo.Name = "hintTwo";
-            this.hintTwo.Size = new System.Drawing.Size(100, 13);
+            this.hintTwo.Size = new System.Drawing.Size(103, 13);
             this.hintTwo.TabIndex = 9;
-            this.hintTwo.Text = "(Click to reveal hint)";
+            this.hintTwo.Text = "(Click to reveal clue)";
             this.hintTwo.Click += new System.EventHandler(this.hintTwo_Click);
             // 
             // hintThree
@@ -159,9 +159,9 @@
             this.hintThree.AutoSize = true;
             this.hintThree.Location = new System.Drawing.Point(684, 417);
             this.hintThree.Name = "hintThree";
-            this.hintThree.Size = new System.Drawing.Size(100, 13);
+            this.hintThree.Size = new System.Drawing.Size(103, 13);
             this.hintThree.TabIndex = 10;
-            this.hintThree.Text = "(Click to reveal hint)";
+            this.hintThree.Text = "(Click to reveal clue)";
             this.hintThree.Click += new System.EventHandler(this.hintThree_Click);
             // 
             // rulesForm

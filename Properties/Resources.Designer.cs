@@ -22,7 +22,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Escape_The_Haunted_Forest__BOO__.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap BlueBackground {
+        internal static System.Drawing.Bitmap BlueBackground {
             get {
                 object obj = ResourceManager.GetObject("BlueBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap ButterflyBlank {
+        internal static System.Drawing.Bitmap ButterflyBlank {
             get {
                 object obj = ResourceManager.GetObject("ButterflyBlank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,17 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap ButterflyExample {
+        internal static System.Drawing.Bitmap ButterflyBlue {
+            get {
+                object obj = ResourceManager.GetObject("ButterflyBlue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ButterflyExample {
             get {
                 object obj = ResourceManager.GetObject("ButterflyExample", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -91,9 +101,19 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ButterflyGreen {
+            get {
+                object obj = ResourceManager.GetObject("ButterflyGreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        public static System.IO.UnmanagedMemoryStream ButterflyMusic {
+        internal static System.IO.UnmanagedMemoryStream ButterflyMusic {
             get {
                 return ResourceManager.GetStream("ButterflyMusic", resourceCulture);
             }
@@ -102,7 +122,17 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap ButterflyTrophy {
+        internal static System.Drawing.Bitmap ButterflyRed {
+            get {
+                object obj = ResourceManager.GetObject("ButterflyRed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ButterflyTrophy {
             get {
                 object obj = ResourceManager.GetObject("ButterflyTrophy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -112,7 +142,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        public static System.IO.UnmanagedMemoryStream ClownLaugh {
+        internal static System.IO.UnmanagedMemoryStream ClownLaugh {
             get {
                 return ResourceManager.GetStream("ClownLaugh", resourceCulture);
             }
@@ -121,7 +151,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Confetti {
+        internal static System.Drawing.Bitmap Confetti {
             get {
                 object obj = ResourceManager.GetObject("Confetti", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -131,7 +161,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        public static System.IO.UnmanagedMemoryStream Confetti1 {
+        internal static System.IO.UnmanagedMemoryStream Confetti1 {
             get {
                 return ResourceManager.GetStream("Confetti1", resourceCulture);
             }
@@ -140,7 +170,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap EscapeRoom {
+        internal static System.Drawing.Bitmap EscapeRoom {
             get {
                 object obj = ResourceManager.GetObject("EscapeRoom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -150,7 +180,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap EscapeRoom1 {
+        internal static System.Drawing.Bitmap EscapeRoom1 {
             get {
                 object obj = ResourceManager.GetObject("EscapeRoom1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -160,7 +190,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap EscapeRoomDoor {
+        internal static System.Drawing.Bitmap EscapeRoomDoor {
             get {
                 object obj = ResourceManager.GetObject("EscapeRoomDoor", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -170,7 +200,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap FernBackground {
+        internal static System.Drawing.Bitmap FernBackground {
             get {
                 object obj = ResourceManager.GetObject("FernBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -180,7 +210,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap GlobeExample {
+        internal static System.Drawing.Bitmap GlobeExample {
             get {
                 object obj = ResourceManager.GetObject("GlobeExample", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -190,7 +220,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap GlobeGame {
+        internal static System.Drawing.Bitmap GlobeGame {
             get {
                 object obj = ResourceManager.GetObject("GlobeGame", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -200,7 +230,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap GlobeGameBackground {
+        internal static System.Drawing.Bitmap GlobeGameBackground {
             get {
                 object obj = ResourceManager.GetObject("GlobeGameBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -210,7 +240,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        public static System.IO.UnmanagedMemoryStream globeGameMusic1 {
+        internal static System.IO.UnmanagedMemoryStream globeGameMusic1 {
             get {
                 return ResourceManager.GetStream("globeGameMusic1", resourceCulture);
             }
@@ -219,7 +249,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap GlobeTrophy {
+        internal static System.Drawing.Bitmap GlobeTrophy {
             get {
                 object obj = ResourceManager.GetObject("GlobeTrophy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -229,7 +259,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Haunted_Forest_Intro {
+        internal static System.Drawing.Bitmap Haunted_Forest_Intro {
             get {
                 object obj = ResourceManager.GetObject("Haunted Forest Intro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -239,7 +269,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        public static System.IO.UnmanagedMemoryStream IntroMusic {
+        internal static System.IO.UnmanagedMemoryStream IntroMusic {
             get {
                 return ResourceManager.GetStream("IntroMusic", resourceCulture);
             }
@@ -248,7 +278,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        public static System.IO.UnmanagedMemoryStream KnockKnock {
+        internal static System.IO.UnmanagedMemoryStream KnockKnock {
             get {
                 return ResourceManager.GetStream("KnockKnock", resourceCulture);
             }
@@ -257,7 +287,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Leprechaun {
+        internal static System.Drawing.Bitmap Leprechaun {
             get {
                 object obj = ResourceManager.GetObject("Leprechaun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -267,7 +297,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap LeprechaunCool {
+        internal static System.Drawing.Bitmap LeprechaunCool {
             get {
                 object obj = ResourceManager.GetObject("LeprechaunCool", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -277,7 +307,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap PhotoTrophy {
+        internal static System.Drawing.Bitmap PhotoTrophy {
             get {
                 object obj = ResourceManager.GetObject("PhotoTrophy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -287,7 +317,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap PicExample {
+        internal static System.Drawing.Bitmap PicExample {
             get {
                 object obj = ResourceManager.GetObject("PicExample", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -297,7 +327,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap PotOGold {
+        internal static System.Drawing.Bitmap PotOGold {
             get {
                 object obj = ResourceManager.GetObject("PotOGold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -307,7 +337,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap RedArrow {
+        internal static System.Drawing.Bitmap RedArrow {
             get {
                 object obj = ResourceManager.GetObject("RedArrow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -317,7 +347,7 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Transparent {
+        internal static System.Drawing.Bitmap Transparent {
             get {
                 object obj = ResourceManager.GetObject("Transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));

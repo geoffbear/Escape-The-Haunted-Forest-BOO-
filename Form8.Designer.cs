@@ -38,7 +38,6 @@
             this.incorrectText = new System.Windows.Forms.Label();
             this.incorrectCountText = new System.Windows.Forms.Label();
             this.colourRevealTimer = new System.Windows.Forms.Timer(this.components);
-            this.randomGeneratorTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bird3Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird6Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird2Pic)).BeginInit();
@@ -52,6 +51,7 @@
             this.bird3Pic.BackColor = System.Drawing.Color.Transparent;
             this.bird3Pic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.ButterflyBlank;
             this.bird3Pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bird3Pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bird3Pic.Location = new System.Drawing.Point(614, 56);
             this.bird3Pic.Name = "bird3Pic";
             this.bird3Pic.Size = new System.Drawing.Size(146, 122);
@@ -64,6 +64,7 @@
             this.bird6Pic.BackColor = System.Drawing.Color.Transparent;
             this.bird6Pic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.ButterflyBlank;
             this.bird6Pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bird6Pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bird6Pic.Location = new System.Drawing.Point(614, 252);
             this.bird6Pic.Name = "bird6Pic";
             this.bird6Pic.Size = new System.Drawing.Size(146, 122);
@@ -76,6 +77,7 @@
             this.bird2Pic.BackColor = System.Drawing.Color.Transparent;
             this.bird2Pic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.ButterflyBlank;
             this.bird2Pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bird2Pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bird2Pic.Location = new System.Drawing.Point(357, 56);
             this.bird2Pic.Name = "bird2Pic";
             this.bird2Pic.Size = new System.Drawing.Size(146, 122);
@@ -88,6 +90,7 @@
             this.bird1Pic.BackColor = System.Drawing.Color.Transparent;
             this.bird1Pic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.ButterflyBlank;
             this.bird1Pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bird1Pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bird1Pic.Location = new System.Drawing.Point(109, 56);
             this.bird1Pic.Name = "bird1Pic";
             this.bird1Pic.Size = new System.Drawing.Size(146, 122);
@@ -100,6 +103,7 @@
             this.bird5Pic.BackColor = System.Drawing.Color.Transparent;
             this.bird5Pic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.ButterflyBlank;
             this.bird5Pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bird5Pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bird5Pic.Location = new System.Drawing.Point(357, 252);
             this.bird5Pic.Name = "bird5Pic";
             this.bird5Pic.Size = new System.Drawing.Size(146, 122);
@@ -112,6 +116,7 @@
             this.bird4Pic.BackColor = System.Drawing.Color.Transparent;
             this.bird4Pic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.ButterflyBlank;
             this.bird4Pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bird4Pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bird4Pic.Location = new System.Drawing.Point(109, 252);
             this.bird4Pic.Name = "bird4Pic";
             this.bird4Pic.Size = new System.Drawing.Size(146, 122);
@@ -141,11 +146,6 @@
             // colourRevealTimer
             // 
             this.colourRevealTimer.Tick += new System.EventHandler(this.colourRevealTimer_Tick);
-            // 
-            // randomGeneratorTimer
-            // 
-            this.randomGeneratorTimer.Interval = 1;
-            this.randomGeneratorTimer.Tick += new System.EventHandler(this.randomGeneratorTimer_Tick);
             // 
             // butterflyGameForm
             // 
@@ -188,6 +188,5 @@
         private System.Windows.Forms.Label incorrectText;
         private System.Windows.Forms.Label incorrectCountText;
         private System.Windows.Forms.Timer colourRevealTimer;
-        private System.Windows.Forms.Timer randomGeneratorTimer;
     }
 }
