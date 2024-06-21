@@ -217,7 +217,7 @@ namespace Escape_The_Haunted_Forest__BOO__
             colourRandomizerStart.Sort();
             colourRevealTimer.Enabled = true;
 
-            while (colourRandomizerStart.Count != 0)
+            while (colourRandomizerStart.Count > 0)
             {
                 random = generator.Next(0, (colourRandomizerStart.Last()));
                 colourRandomizerStart.Remove(random);
