@@ -42,6 +42,16 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             }
 
+            if (clicks == 1)
+            {
+
+            }
+
+            else if (clicks == 2)
+            {
+                clicks = 0;
+            }
+
         }
 
         private void bird2Pic_Click(object sender, EventArgs e)
@@ -61,6 +71,16 @@ namespace Escape_The_Haunted_Forest__BOO__
             {
 
             }
+
+            if (clicks == 1)
+            {
+
+            }
+
+            else if (clicks == 2)
+            {
+                clicks = 0;
+            }
         }
 
         private void bird3Pic_Click(object sender, EventArgs e)
@@ -79,6 +99,16 @@ namespace Escape_The_Haunted_Forest__BOO__
             else if (colourRandomizerEnd[3] == 3)
             {
 
+            }
+
+            if (clicks == 1)
+            {
+
+            }
+
+            else if (clicks == 2)
+            {
+                clicks = 0;
             }
         }
 
@@ -100,6 +130,16 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             }
 
+            if (clicks == 1)
+            {
+
+            }
+
+            else if (clicks == 2)
+            {
+                clicks = 0;
+            }
+
         }
 
         private void bird5Pic_Click(object sender, EventArgs e)
@@ -118,6 +158,16 @@ namespace Escape_The_Haunted_Forest__BOO__
             else if (colourRandomizerEnd[5] == 3)
             {
 
+            }
+
+            if (clicks == 1)
+            {
+
+            }
+
+            else if (clicks == 2)
+            {
+                clicks = 0;
             }
         }
 
@@ -142,6 +192,16 @@ namespace Escape_The_Haunted_Forest__BOO__
             else if (colourRandomizerEnd[6] == 3)
             {
 
+            }
+
+            if (clicks == 1)
+            {
+
+            }
+
+            else if (clicks == 2)
+            {
+                clicks = 0;
             }
         }
         private void colourRevealTimer_Tick(object sender, EventArgs e)
