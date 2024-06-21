@@ -27,6 +27,7 @@ namespace Escape_The_Haunted_Forest__BOO__
         private void bird1Pic_Click(object sender, EventArgs e)
         {
             clicks++;
+
             if (colourRandomizerEnd[1] == 1)
             {
                 bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
@@ -51,8 +52,8 @@ namespace Escape_The_Haunted_Forest__BOO__
             {
                 clicks = 0;
             }
-
         }
+
 
         private void bird2Pic_Click(object sender, EventArgs e)
         {
@@ -216,9 +217,9 @@ namespace Escape_The_Haunted_Forest__BOO__
             colourRandomizerStart.Sort();
             colourRevealTimer.Enabled = true;
 
-            while (colourRandomizerStart.Count > 0)
+            while (colourRandomizerStart.Count != 0)
             {
-                random = generator.Next(1, (colourRandomizerStart.Last() + 1));
+                random = generator.Next(0, (colourRandomizerStart.Last()));
                 colourRandomizerStart.Remove(random);
                 colourRandomizerEnd.Add(random);
             }
