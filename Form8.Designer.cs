@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.bird3Pic = new System.Windows.Forms.PictureBox();
             this.bird6Pic = new System.Windows.Forms.PictureBox();
             this.bird2Pic = new System.Windows.Forms.PictureBox();
@@ -36,6 +37,8 @@
             this.bird4Pic = new System.Windows.Forms.PictureBox();
             this.incorrectText = new System.Windows.Forms.Label();
             this.incorrectCountText = new System.Windows.Forms.Label();
+            this.colourRevealTimer = new System.Windows.Forms.Timer(this.components);
+            this.randomGeneratorTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bird3Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird6Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird2Pic)).BeginInit();
@@ -119,21 +122,30 @@
             // incorrectText
             // 
             this.incorrectText.AutoSize = true;
-            this.incorrectText.Font = new System.Drawing.Font("Showcard Gothic", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.incorrectText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.incorrectText.Location = new System.Drawing.Point(178, 471);
             this.incorrectText.Name = "incorrectText";
-            this.incorrectText.Size = new System.Drawing.Size(232, 40);
+            this.incorrectText.Size = new System.Drawing.Size(177, 37);
             this.incorrectText.TabIndex = 6;
             this.incorrectText.Text = "Incorrects:";
             // 
             // incorrectCountText
             // 
-            this.incorrectCountText.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.incorrectCountText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.incorrectCountText.Location = new System.Drawing.Point(416, 471);
             this.incorrectCountText.Name = "incorrectCountText";
             this.incorrectCountText.Size = new System.Drawing.Size(34, 40);
             this.incorrectCountText.TabIndex = 0;
             this.incorrectCountText.Text = "0";
+            // 
+            // colourRevealTimer
+            // 
+            this.colourRevealTimer.Tick += new System.EventHandler(this.colourRevealTimer_Tick);
+            // 
+            // randomGeneratorTimer
+            // 
+            this.randomGeneratorTimer.Interval = 1;
+            this.randomGeneratorTimer.Tick += new System.EventHandler(this.randomGeneratorTimer_Tick);
             // 
             // butterflyGameForm
             // 
@@ -175,5 +187,7 @@
         private System.Windows.Forms.PictureBox bird4Pic;
         private System.Windows.Forms.Label incorrectText;
         private System.Windows.Forms.Label incorrectCountText;
+        private System.Windows.Forms.Timer colourRevealTimer;
+        private System.Windows.Forms.Timer randomGeneratorTimer;
     }
 }

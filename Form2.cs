@@ -65,7 +65,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void butterflyGamePic_Click(object sender, EventArgs e)
         {
-
+            butterflyGameForm bGame = new butterflyGameForm();
+            this.Hide();
+            bGame.ShowDialog();
+            this.Show();
+            this.Dispose();
         }
     }
 }

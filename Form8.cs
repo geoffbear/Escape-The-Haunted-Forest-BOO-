@@ -19,44 +19,154 @@ namespace Escape_The_Haunted_Forest__BOO__
             InitializeComponent();
         }
         SoundPlayer butterfylMusic = new SoundPlayer(Properties.Resources.ButterflyMusic);
-        int wrong = 0, correct = 0;
-        List<int> list = new List<int>();
+        int wrong = 0, correct = 0, clicks = 0, random;
+        List<int> colourRandomizerStart = new List<int>();
+        List<int> colourRandomizerEnd = new List<int>();
         Random generator = new Random();
-        //1 = Red, 2 = Blue, 3 = Green
 
         private void bird1Pic_Click(object sender, EventArgs e)
         {
+            clicks++;
+            if (colourRandomizerEnd[1] == 1)
+            {
+
+            }
+
+            else if (colourRandomizerEnd[1] == 2)
+            {
+
+            }
+
+            else if (colourRandomizerEnd[1] == 3)
+            {
+
+            }
 
         }
 
         private void bird2Pic_Click(object sender, EventArgs e)
         {
+            clicks++;
+            if (colourRandomizerEnd[2] == 1)
+            {
 
+            }
+
+            else if (colourRandomizerEnd[2] == 2)
+            {
+
+            }
+
+            else if (colourRandomizerEnd[2] == 3)
+            {
+
+            }
         }
 
         private void bird3Pic_Click(object sender, EventArgs e)
         {
+            clicks++;
+            if (colourRandomizerEnd[3] == 1)
+            {
 
+            }
+
+            else if (colourRandomizerEnd[3] == 2)
+            {
+
+            }
+
+            else if (colourRandomizerEnd[3] == 3)
+            {
+
+            }
         }
 
         private void bird4Pic_Click(object sender, EventArgs e)
         {
+            clicks++;
+            if (colourRandomizerEnd[4] == 1)
+            {
+
+            }
+
+            else if (colourRandomizerEnd[4] == 2)
+            {
+
+            }
+
+            else if (colourRandomizerEnd[4] == 3)
+            {
+
+            }
 
         }
 
         private void bird5Pic_Click(object sender, EventArgs e)
         {
+            clicks++;
+            if (colourRandomizerEnd[5] == 1)
+            {
 
+            }
+
+            else if (colourRandomizerEnd[5] == 2)
+            {
+
+            }
+
+            else if (colourRandomizerEnd[5] == 3)
+            {
+
+            }
+        }
+
+        private void randomGeneratorTimer_Tick(object sender, EventArgs e)
+        {
+            randomGeneratorTimer.Enabled = false;
         }
 
         private void bird6Pic_Click(object sender, EventArgs e)
         {
+            clicks++;
+            if (colourRandomizerEnd[6] == 1)
+            {
 
+            }
+
+            else if (colourRandomizerEnd[6] == 2)
+            {
+
+            }
+
+            else if (colourRandomizerEnd[6] == 3)
+            {
+
+            }
+        }
+        private void colourRevealTimer_Tick(object sender, EventArgs e)
+        {
+            colourRevealTimer.Enabled = false;
         }
 
         private void butterflyGameForm_Load(object sender, EventArgs e)
         {
             butterfylMusic.PlayLooping();
+            colourRandomizerStart.Add(1);
+            colourRandomizerStart.Add(1);
+            colourRandomizerStart.Add(2);
+            colourRandomizerStart.Add(2);
+            colourRandomizerStart.Add(3);
+            colourRandomizerStart.Add(3);
+            colourRandomizerStart.Sort();
+            colourRevealTimer.Enabled = true;
+
+            while (colourRandomizerStart.Count > 0)
+            {
+                random = generator.Next(0, (colourRandomizerStart.Last() + 1));
+                colourRandomizerStart.Remove(random);
+                colourRandomizerEnd.Add(random);
+            }
         }
     }
 }

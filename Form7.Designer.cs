@@ -92,6 +92,7 @@
             // 
             // continueButton
             // 
+            this.continueButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.continueButton.Location = new System.Drawing.Point(12, 522);
             this.continueButton.Name = "continueButton";
             this.continueButton.Size = new System.Drawing.Size(815, 49);
