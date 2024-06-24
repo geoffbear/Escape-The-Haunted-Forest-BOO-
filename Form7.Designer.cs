@@ -89,7 +89,6 @@
             this.picRules.Size = new System.Drawing.Size(527, 72);
             this.picRules.TabIndex = 3;
             this.picRules.Text = resources.GetString("picRules.Text");
-            this.picRules.Visible = false;
             // 
             // continueButton
             // 
