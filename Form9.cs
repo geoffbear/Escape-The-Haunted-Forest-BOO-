@@ -22,6 +22,9 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             guessPic.Size = new Size();
             guessPic.Location = new Point();
+            //Low = Highest number - 32
+            //Med = Highest number - 64
+            //High = Dowloaded Size
         }
     }
 }
