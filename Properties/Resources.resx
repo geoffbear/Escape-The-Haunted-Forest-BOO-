@@ -118,94 +118,169 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="EscapeRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EscapeRoom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EscapeRoomDoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EscapeRoomDoor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ButterflyMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButterflyMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Confetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Confetti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GlobeTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GlobeTrophy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GlobeExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GlobeExample.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EscapeRoom1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EscapeRoom1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="globeGameMusic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\globeGameMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="PhotoTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PhotoTrophy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PotOGold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PotOGold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BlueBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BlueBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="GlobeGameBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GlobeGameBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FernBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FernBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Haunted Forest Intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Haunted Forest Intro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ButterflyExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButterflyExample.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Confetti1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Confetti.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="KnockKnock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\KnockKnock.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ClownLaugh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ClownLaugh.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RedArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RedArrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Leprechaun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Leprechaun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LeprechaunCool" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LeprechaunCool.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GlobeGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GlobeGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IntroMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IntroMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButterflyTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButterflyTrophy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PicExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PicExample.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ButterflyBlank" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButterflyBlank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ButterflyBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButterflyBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ButterflyGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButterflyGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BlueBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GlobeTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GlobeTrophy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButterflyBlank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButterflyBlank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IntroMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IntroMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="globeGameMusic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globeGameMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PicExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PicExample.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButterflyMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButterflyMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButterflyTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButterflyTrophy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EscapeRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EscapeRoom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GlobeExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GlobeExample.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EscapeRoomDoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EscapeRoomDoor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PhotoTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PhotoTrophy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Haunted Forest Intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Haunted Forest Intro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GlobeGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GlobeGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KnockKnock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KnockKnock.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Leprechaun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leprechaun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FernBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FernBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButterflyExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButterflyExample.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EscapeRoom1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EscapeRoom1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Confetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Confetti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ButterflyRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButterflyRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedArrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeprechaunCool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LeprechaunCool.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Confetti1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Confetti.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClownLaugh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClownLaugh.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButterflyGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButterflyGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedArrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PotOGold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PotOGold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MonaLisaHigh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MonaLisaHigh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AtmosphereHigh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AtmosphereHigh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AtmosphereLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AtmosphereLow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AtmosphereMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AtmosphereMed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EthanHigh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EthanHigh.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EthanLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EthanLow.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EthanMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EthanMed.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JimCarreyHigh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JimCarreyHigh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JimCarreyLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JimCarreyLow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JimCarreyMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JimCarreyMed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JustinTrudeauHigh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JustinTrudeauHigh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JustinTrudeauLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JustinTrudeauLow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JustinTrudeauMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JustinTrudeauMed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KanyeWestHigh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KanyeWestHigh.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KanyeWestLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KanyeWestLow.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KanyeWestMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KanyeWestMed.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarioHigh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarioHigh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarioLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarioLow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarioMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarioMed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MonaLisaLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MonaLisaLow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MonaLisaMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MonaLisaMed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NickHigh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NickHigh.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NickLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NickLow.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NickMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NickMed.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

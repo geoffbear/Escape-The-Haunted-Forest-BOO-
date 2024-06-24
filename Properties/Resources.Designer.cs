@@ -63,6 +63,36 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AtmosphereHigh {
+            get {
+                object obj = ResourceManager.GetObject("AtmosphereHigh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AtmosphereLow {
+            get {
+                object obj = ResourceManager.GetObject("AtmosphereLow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AtmosphereMed {
+            get {
+                object obj = ResourceManager.GetObject("AtmosphereMed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BlueBackground {
             get {
                 object obj = ResourceManager.GetObject("BlueBackground", resourceCulture);
@@ -200,6 +230,36 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EthanHigh {
+            get {
+                object obj = ResourceManager.GetObject("EthanHigh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EthanLow {
+            get {
+                object obj = ResourceManager.GetObject("EthanLow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EthanMed {
+            get {
+                object obj = ResourceManager.GetObject("EthanMed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FernBackground {
             get {
                 object obj = ResourceManager.GetObject("FernBackground", resourceCulture);
@@ -276,6 +336,96 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JimCarreyHigh {
+            get {
+                object obj = ResourceManager.GetObject("JimCarreyHigh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JimCarreyLow {
+            get {
+                object obj = ResourceManager.GetObject("JimCarreyLow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JimCarreyMed {
+            get {
+                object obj = ResourceManager.GetObject("JimCarreyMed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JustinTrudeauHigh {
+            get {
+                object obj = ResourceManager.GetObject("JustinTrudeauHigh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JustinTrudeauLow {
+            get {
+                object obj = ResourceManager.GetObject("JustinTrudeauLow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JustinTrudeauMed {
+            get {
+                object obj = ResourceManager.GetObject("JustinTrudeauMed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KanyeWestHigh {
+            get {
+                object obj = ResourceManager.GetObject("KanyeWestHigh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KanyeWestLow {
+            get {
+                object obj = ResourceManager.GetObject("KanyeWestLow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KanyeWestMed {
+            get {
+                object obj = ResourceManager.GetObject("KanyeWestMed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream KnockKnock {
@@ -300,6 +450,96 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         internal static System.Drawing.Bitmap LeprechaunCool {
             get {
                 object obj = ResourceManager.GetObject("LeprechaunCool", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MarioHigh {
+            get {
+                object obj = ResourceManager.GetObject("MarioHigh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MarioLow {
+            get {
+                object obj = ResourceManager.GetObject("MarioLow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MarioMed {
+            get {
+                object obj = ResourceManager.GetObject("MarioMed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MonaLisaHigh {
+            get {
+                object obj = ResourceManager.GetObject("MonaLisaHigh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MonaLisaLow {
+            get {
+                object obj = ResourceManager.GetObject("MonaLisaLow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MonaLisaMed {
+            get {
+                object obj = ResourceManager.GetObject("MonaLisaMed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NickHigh {
+            get {
+                object obj = ResourceManager.GetObject("NickHigh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NickLow {
+            get {
+                object obj = ResourceManager.GetObject("NickLow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NickMed {
+            get {
+                object obj = ResourceManager.GetObject("NickMed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -340,6 +580,16 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         internal static System.Drawing.Bitmap RedArrow {
             get {
                 object obj = ResourceManager.GetObject("RedArrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RedArrow1 {
+            get {
+                object obj = ResourceManager.GetObject("RedArrow1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

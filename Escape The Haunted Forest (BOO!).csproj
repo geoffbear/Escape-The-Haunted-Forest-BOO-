@@ -234,5 +234,77 @@
   <ItemGroup>
     <None Include="Resources\ButterflyRed.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AtmosphereHigh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AtmosphereLow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AtmosphereMed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EthanHigh.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EthanLow.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EthanMed.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JimCarreyHigh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JimCarreyLow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JimCarreyMed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JustinTrudeauHigh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JustinTrudeauLow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JustinTrudeauMed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KanyeWestHigh.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KanyeWestLow.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KanyeWestMed.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarioHigh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarioLow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarioMed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MonaLisaHigh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MonaLisaLow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MonaLisaMed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NickHigh.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NickLow.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NickMed.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
