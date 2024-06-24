@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="picRules.Text" xml:space="preserve">
+    <value>In the picture puzzle, you will be given a pixelated image of someone.
+Your job will be to guess who it is of. 
+Be careful, you will only have 5 "skips" to make the image clearer.
+If you get 1 wrong, you fail.</value>
+  </data>
 </root>

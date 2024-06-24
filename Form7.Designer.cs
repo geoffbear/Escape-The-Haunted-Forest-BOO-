@@ -28,17 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rulesForm));
             this.ruleText = new System.Windows.Forms.Label();
             this.globeGameRules = new System.Windows.Forms.Label();
             this.butterflyGameRules = new System.Windows.Forms.Label();
             this.picRules = new System.Windows.Forms.Label();
             this.continueButton = new System.Windows.Forms.Button();
-            this.picExamplePic = new System.Windows.Forms.PictureBox();
-            this.butterflyExamplePic = new System.Windows.Forms.PictureBox();
-            this.globeExamplePic = new System.Windows.Forms.PictureBox();
             this.hintOne = new System.Windows.Forms.Label();
             this.hintTwo = new System.Windows.Forms.Label();
             this.hintThree = new System.Windows.Forms.Label();
+            this.picExamplePic = new System.Windows.Forms.PictureBox();
+            this.butterflyExamplePic = new System.Windows.Forms.PictureBox();
+            this.globeExamplePic = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picExamplePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.butterflyExamplePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.globeExamplePic)).BeginInit();
@@ -61,7 +62,7 @@
             // 
             this.globeGameRules.AutoSize = true;
             this.globeGameRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.globeGameRules.Location = new System.Drawing.Point(39, 139);
+            this.globeGameRules.Location = new System.Drawing.Point(39, 135);
             this.globeGameRules.Name = "globeGameRules";
             this.globeGameRules.Size = new System.Drawing.Size(535, 36);
             this.globeGameRules.TabIndex = 1;
@@ -72,7 +73,7 @@
             // 
             this.butterflyGameRules.AutoSize = true;
             this.butterflyGameRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butterflyGameRules.Location = new System.Drawing.Point(39, 239);
+            this.butterflyGameRules.Location = new System.Drawing.Point(39, 245);
             this.butterflyGameRules.Name = "butterflyGameRules";
             this.butterflyGameRules.Size = new System.Drawing.Size(474, 54);
             this.butterflyGameRules.TabIndex = 2;
@@ -83,11 +84,11 @@
             // 
             this.picRules.AutoSize = true;
             this.picRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.picRules.Location = new System.Drawing.Point(39, 413);
+            this.picRules.Location = new System.Drawing.Point(39, 378);
             this.picRules.Name = "picRules";
-            this.picRules.Size = new System.Drawing.Size(73, 18);
+            this.picRules.Size = new System.Drawing.Size(527, 72);
             this.picRules.TabIndex = 3;
-            this.picRules.Text = "picRules";
+            this.picRules.Text = resources.GetString("picRules.Text");
             this.picRules.Visible = false;
             // 
             // continueButton
@@ -100,6 +101,36 @@
             this.continueButton.Text = "Continue";
             this.continueButton.UseVisualStyleBackColor = true;
             this.continueButton.Click += new System.EventHandler(this.continueButton_Click);
+            // 
+            // hintOne
+            // 
+            this.hintOne.AutoSize = true;
+            this.hintOne.Location = new System.Drawing.Point(684, 139);
+            this.hintOne.Name = "hintOne";
+            this.hintOne.Size = new System.Drawing.Size(103, 13);
+            this.hintOne.TabIndex = 8;
+            this.hintOne.Text = "(Click to reveal clue)";
+            this.hintOne.Click += new System.EventHandler(this.hintOne_Click);
+            // 
+            // hintTwo
+            // 
+            this.hintTwo.AutoSize = true;
+            this.hintTwo.Location = new System.Drawing.Point(684, 264);
+            this.hintTwo.Name = "hintTwo";
+            this.hintTwo.Size = new System.Drawing.Size(103, 13);
+            this.hintTwo.TabIndex = 9;
+            this.hintTwo.Text = "(Click to reveal clue)";
+            this.hintTwo.Click += new System.EventHandler(this.hintTwo_Click);
+            // 
+            // hintThree
+            // 
+            this.hintThree.AutoSize = true;
+            this.hintThree.Location = new System.Drawing.Point(684, 417);
+            this.hintThree.Name = "hintThree";
+            this.hintThree.Size = new System.Drawing.Size(103, 13);
+            this.hintThree.TabIndex = 10;
+            this.hintThree.Text = "(Click to reveal clue)";
+            this.hintThree.Click += new System.EventHandler(this.hintThree_Click);
             // 
             // picExamplePic
             // 
@@ -133,36 +164,6 @@
             this.globeExamplePic.TabIndex = 5;
             this.globeExamplePic.TabStop = false;
             this.globeExamplePic.Visible = false;
-            // 
-            // hintOne
-            // 
-            this.hintOne.AutoSize = true;
-            this.hintOne.Location = new System.Drawing.Point(684, 139);
-            this.hintOne.Name = "hintOne";
-            this.hintOne.Size = new System.Drawing.Size(103, 13);
-            this.hintOne.TabIndex = 8;
-            this.hintOne.Text = "(Click to reveal clue)";
-            this.hintOne.Click += new System.EventHandler(this.hintOne_Click);
-            // 
-            // hintTwo
-            // 
-            this.hintTwo.AutoSize = true;
-            this.hintTwo.Location = new System.Drawing.Point(684, 264);
-            this.hintTwo.Name = "hintTwo";
-            this.hintTwo.Size = new System.Drawing.Size(103, 13);
-            this.hintTwo.TabIndex = 9;
-            this.hintTwo.Text = "(Click to reveal clue)";
-            this.hintTwo.Click += new System.EventHandler(this.hintTwo_Click);
-            // 
-            // hintThree
-            // 
-            this.hintThree.AutoSize = true;
-            this.hintThree.Location = new System.Drawing.Point(684, 417);
-            this.hintThree.Name = "hintThree";
-            this.hintThree.Size = new System.Drawing.Size(103, 13);
-            this.hintThree.TabIndex = 10;
-            this.hintThree.Text = "(Click to reveal clue)";
-            this.hintThree.Click += new System.EventHandler(this.hintThree_Click);
             // 
             // rulesForm
             // 

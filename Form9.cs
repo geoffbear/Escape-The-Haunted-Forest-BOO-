@@ -16,5 +16,12 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             InitializeComponent();
         }
+        int skips = 5, correct = 0, wrong = 0;
+
+        private void pictureForm_Load(object sender, EventArgs e)
+        {
+            guessPic.Size = new Size();
+            guessPic.Location = new Point();
+        }
     }
 }
