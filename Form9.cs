@@ -19,6 +19,7 @@ namespace Escape_The_Haunted_Forest__BOO__
         int skips = 5, correct = 0, wrong = 0, random;
         Random generator = new Random();
         //1 = Atmosphere, 2 = Ethan, 3 = Jim Carrey, 4 = Justin Trudeau, 5 = Kanye West, 6 = Mario, 7 = Mona Lisa, 8 = Nick.
+
         private void pictureForm_Load(object sender, EventArgs e)
         {
             guessPic.Location = new Point(12, 12);
