@@ -38,12 +38,17 @@
             this.incorrectText = new System.Windows.Forms.Label();
             this.incorrectCountText = new System.Windows.Forms.Label();
             this.colourRevealTimer = new System.Windows.Forms.Timer(this.components);
+            this.correctText = new System.Windows.Forms.Label();
+            this.correctCountText = new System.Windows.Forms.Label();
+            this.confettiPic = new System.Windows.Forms.PictureBox();
+            this.winTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bird3Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird6Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird2Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird1Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird5Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird4Pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.confettiPic)).BeginInit();
             this.SuspendLayout();
             // 
             // bird3Pic
@@ -128,7 +133,7 @@
             // 
             this.incorrectText.AutoSize = true;
             this.incorrectText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.incorrectText.Location = new System.Drawing.Point(178, 471);
+            this.incorrectText.Location = new System.Drawing.Point(60, 471);
             this.incorrectText.Name = "incorrectText";
             this.incorrectText.Size = new System.Drawing.Size(177, 37);
             this.incorrectText.TabIndex = 6;
@@ -137,7 +142,7 @@
             // incorrectCountText
             // 
             this.incorrectCountText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.incorrectCountText.Location = new System.Drawing.Point(416, 471);
+            this.incorrectCountText.Location = new System.Drawing.Point(243, 468);
             this.incorrectCountText.Name = "incorrectCountText";
             this.incorrectCountText.Size = new System.Drawing.Size(34, 40);
             this.incorrectCountText.TabIndex = 0;
@@ -147,6 +152,42 @@
             // 
             this.colourRevealTimer.Tick += new System.EventHandler(this.colourRevealTimer_Tick);
             // 
+            // correctText
+            // 
+            this.correctText.AutoSize = true;
+            this.correctText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.correctText.Location = new System.Drawing.Point(479, 471);
+            this.correctText.Name = "correctText";
+            this.correctText.Size = new System.Drawing.Size(156, 37);
+            this.correctText.TabIndex = 7;
+            this.correctText.Text = "Corrects:";
+            // 
+            // correctCountText
+            // 
+            this.correctCountText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.correctCountText.Location = new System.Drawing.Point(641, 468);
+            this.correctCountText.Name = "correctCountText";
+            this.correctCountText.Size = new System.Drawing.Size(34, 40);
+            this.correctCountText.TabIndex = 8;
+            this.correctCountText.Text = "0";
+            // 
+            // confettiPic
+            // 
+            this.confettiPic.BackColor = System.Drawing.Color.Transparent;
+            this.confettiPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.Confetti;
+            this.confettiPic.Enabled = false;
+            this.confettiPic.Location = new System.Drawing.Point(2, -2);
+            this.confettiPic.Name = "confettiPic";
+            this.confettiPic.Size = new System.Drawing.Size(834, 586);
+            this.confettiPic.TabIndex = 12;
+            this.confettiPic.TabStop = false;
+            this.confettiPic.Visible = false;
+            // 
+            // winTimer
+            // 
+            this.winTimer.Interval = 2500;
+            this.winTimer.Tick += new System.EventHandler(this.winTimer_Tick);
+            // 
             // butterflyGameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -154,6 +195,9 @@
             this.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.FernBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(839, 583);
+            this.Controls.Add(this.confettiPic);
+            this.Controls.Add(this.correctCountText);
+            this.Controls.Add(this.correctText);
             this.Controls.Add(this.incorrectCountText);
             this.Controls.Add(this.incorrectText);
             this.Controls.Add(this.bird4Pic);
@@ -172,6 +216,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bird1Pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird5Pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird4Pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.confettiPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -188,5 +233,9 @@
         private System.Windows.Forms.Label incorrectText;
         private System.Windows.Forms.Label incorrectCountText;
         private System.Windows.Forms.Timer colourRevealTimer;
+        private System.Windows.Forms.Label correctText;
+        private System.Windows.Forms.Label correctCountText;
+        private System.Windows.Forms.PictureBox confettiPic;
+        private System.Windows.Forms.Timer winTimer;
     }
 }

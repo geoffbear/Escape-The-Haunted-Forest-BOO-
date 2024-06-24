@@ -65,7 +65,7 @@
             this.globeGameRules.Name = "globeGameRules";
             this.globeGameRules.Size = new System.Drawing.Size(535, 36);
             this.globeGameRules.TabIndex = 1;
-            this.globeGameRules.Text = "In the globe puzzle, you will need to find 5 random countres on a map.\r\nGet 5 wro" +
+            this.globeGameRules.Text = "In the globe puzzle, you will need to find 5 random countres on a map.\r\nGet 3 wro" +
     "ng, you lose.";
             // 
             // butterflyGameRules

@@ -18,7 +18,8 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             InitializeComponent();
         }
-        SoundPlayer butterfylMusic = new SoundPlayer(Properties.Resources.ButterflyMusic);
+        SoundPlayer butterflyMusic = new SoundPlayer(Properties.Resources.ButterflyMusic);
+        SoundPlayer confettiSound = new SoundPlayer(Properties.Resources.Confetti1);
         int wrong = 0, correct = 0, clicks = 0, random, prevColour, currentColour;
         List<int> colourRandomizerStart = new List<int>();
         List<int> colourRandomizerEnd = new List<int>();
@@ -26,35 +27,39 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird1Pic_Click(object sender, EventArgs e)
         {
+            string colour = "";
             clicks++;
             if (colourRandomizerEnd[0] == 1)
             {
                 bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
+                colour = "blue";
             }
 
             else if (colourRandomizerEnd[0] == 2)
             {
                 bird1Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
+                colour = "green";
             }
 
             else if (colourRandomizerEnd[0] == 3)
             {
                 bird1Pic.BackgroundImage = Properties.Resources.ButterflyRed;
+                colour = "red";
             }
 
             if (clicks == 1)
             {
-                if (bird1Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (bird1Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (bird1Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     prevColour = 3;
                 }
@@ -64,18 +69,24 @@ namespace Escape_The_Haunted_Forest__BOO__
             {
                 gameCheck();
                 colourRevealTimer.Enabled = true;
-                
-                if (bird1Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                bird1Pic.Enabled = false;
+                bird2Pic.Enabled = false;
+                bird3Pic.Enabled = false;
+                bird4Pic.Enabled = false;
+                bird5Pic.Enabled = false;
+                bird6Pic.Enabled = false;
+
+                if (colour == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (bird1Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (bird1Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     currentColour = 3;
                 }
@@ -86,35 +97,39 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird2Pic_Click(object sender, EventArgs e)
         {
+            string colour = "";
             clicks++;
             if (colourRandomizerEnd[1] == 1)
             {
                 bird2Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
+                colour = "blue";
             }
 
             else if (colourRandomizerEnd[1] == 2)
             {
                 bird2Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
+                colour = "green";
             }
 
             else if (colourRandomizerEnd[1] == 3)
             {
                 bird2Pic.BackgroundImage= Properties.Resources.ButterflyRed;
+                colour = "red";
             }
 
             if (clicks == 1)
             {
-                if (bird2Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (bird2Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (bird2Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     prevColour = 3;
                 }
@@ -124,18 +139,24 @@ namespace Escape_The_Haunted_Forest__BOO__
             {
                 gameCheck();
                 colourRevealTimer.Enabled = true;
+                bird1Pic.Enabled = false;
+                bird2Pic.Enabled = false;
+                bird3Pic.Enabled = false;
+                bird4Pic.Enabled = false;
+                bird5Pic.Enabled = false;
+                bird6Pic.Enabled = false;
 
-                if (bird2Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (bird2Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (bird2Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     currentColour = 3;
                 }
@@ -145,35 +166,39 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird3Pic_Click(object sender, EventArgs e)
         {
+            string colour = "";
             clicks++;
             if (colourRandomizerEnd[2] == 1)
             {
                 bird3Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
+                colour = "blue";
             }
 
             else if (colourRandomizerEnd[2] == 2)
             {
                 bird3Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
+                colour = "green";
             }
 
             else if (colourRandomizerEnd[2] == 3)
             {
                 bird3Pic.BackgroundImage = Properties.Resources.ButterflyRed;
+                colour = "red";
             }
 
             if (clicks == 1)
             {
-                if (bird3Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (bird3Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (bird3Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     prevColour = 3;
                 }
@@ -183,18 +208,24 @@ namespace Escape_The_Haunted_Forest__BOO__
             {
                 gameCheck();
                 colourRevealTimer.Enabled = true;
+                bird1Pic.Enabled = false;
+                bird2Pic.Enabled = false;
+                bird3Pic.Enabled = false;
+                bird4Pic.Enabled = false;
+                bird5Pic.Enabled = false;
+                bird6Pic.Enabled = false;
 
-                if (bird3Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (bird3Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (bird3Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     currentColour = 3;
                 }
@@ -204,35 +235,39 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird4Pic_Click(object sender, EventArgs e)
         {
+            string colour = "";
             clicks++;
             if (colourRandomizerEnd[3] == 1)
             {
                 bird4Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
+                colour = "blue";
             }
 
             else if (colourRandomizerEnd[3] == 2)
             {
                 bird4Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
+                colour = "green";
             }
 
             else if (colourRandomizerEnd[3] == 3)
             {
                 bird4Pic.BackgroundImage = Properties.Resources.ButterflyRed;
+                colour = "red";
             }
 
             if (clicks == 1)
             {
-                if (bird4Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (bird4Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (bird4Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     prevColour = 3;
                 }
@@ -242,18 +277,24 @@ namespace Escape_The_Haunted_Forest__BOO__
             {
                 gameCheck();
                 colourRevealTimer.Enabled = true;
+                bird1Pic.Enabled = false;
+                bird2Pic.Enabled = false;
+                bird3Pic.Enabled = false;
+                bird4Pic.Enabled = false;
+                bird5Pic.Enabled = false;
+                bird6Pic.Enabled = false;
 
-                if (bird4Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (bird4Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (bird4Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     currentColour = 3;
                 }
@@ -264,35 +305,39 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird5Pic_Click(object sender, EventArgs e)
         {
+            string colour = "";
             clicks++;
             if (colourRandomizerEnd[4] == 1)
             {
                 bird5Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
+                colour = "blue";
             }
 
             else if (colourRandomizerEnd[4] == 2)
             {
                 bird5Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
+                colour = "green"; 
             }
 
             else if (colourRandomizerEnd[4] == 3)
             {
                 bird5Pic.BackgroundImage = Properties.Resources.ButterflyRed;
+                colour = "red";
             }
 
             if (clicks == 1)
             {
-                if (bird5Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (bird5Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (bird5Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     prevColour = 3;
                 }
@@ -302,18 +347,24 @@ namespace Escape_The_Haunted_Forest__BOO__
             {
                 gameCheck();
                 colourRevealTimer.Enabled = true;
+                bird1Pic.Enabled = false;
+                bird2Pic.Enabled = false;
+                bird3Pic.Enabled = false;
+                bird4Pic.Enabled = false;
+                bird5Pic.Enabled = false;
+                bird6Pic.Enabled = false;
 
-                if (bird5Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (bird5Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (bird5Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     currentColour = 3;
                 }
@@ -323,35 +374,39 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird6Pic_Click(object sender, EventArgs e)
         {
+            string colour = "";
             clicks++;
             if (colourRandomizerEnd[5] == 1)
             {
                 bird6Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
+                colour = "blue";
             }
 
             else if (colourRandomizerEnd[5] == 2)
             {
                 bird6Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
+                colour = "green";
             }
 
             else if (colourRandomizerEnd[5] == 3)
             {
                 bird6Pic.BackgroundImage = Properties.Resources.ButterflyRed;
+                colour = "red";
             }
 
             if (clicks == 1)
             {
-                if (bird6Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (bird6Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (bird6Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     prevColour = 3;
                 }
@@ -361,18 +416,24 @@ namespace Escape_The_Haunted_Forest__BOO__
             {
                 gameCheck();
                 colourRevealTimer.Enabled = true;
+                bird1Pic.Enabled = false;
+                bird2Pic.Enabled = false;
+                bird3Pic.Enabled = false;
+                bird4Pic.Enabled = false;
+                bird5Pic.Enabled = false;
+                bird6Pic.Enabled = false;
 
-                if (bird6Pic.BackgroundImage == Properties.Resources.ButterflyBlue)
+                if (colour == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (bird6Pic.BackgroundImage == Properties.Resources.ButterflyGreen)
+                else if (colour == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (bird6Pic.BackgroundImage == Properties.Resources.ButterflyRed)
+                else if (colour == "red")
                 {
                     currentColour = 3;
                 }
@@ -382,11 +443,21 @@ namespace Escape_The_Haunted_Forest__BOO__
         private void colourRevealTimer_Tick(object sender, EventArgs e)
         {
             colourRevealTimer.Enabled = false;
+            bird1Pic.Enabled = true;
+            bird2Pic.Enabled = true;
+            bird3Pic.Enabled = true;
+            bird4Pic.Enabled = true;
+            bird5Pic.Enabled = true;
+            bird6Pic.Enabled = true;
+            if (prevColour == currentColour || prevColour != 0 || currentColour != 0)
+            {
+
+            }
         }
 
         private void butterflyGameForm_Load(object sender, EventArgs e)
         {
-            butterfylMusic.PlayLooping();
+            butterflyMusic.PlayLooping();
             colourRandomizerStart.Add(1);
             colourRandomizerStart.Add(1);
             colourRandomizerStart.Add(2);
@@ -402,14 +473,41 @@ namespace Escape_The_Haunted_Forest__BOO__
                 colourRandomizerStart.Remove(random);
             }
         }
+        private void winTimer_Tick(object sender, EventArgs e)
+        {
+            winTimer.Enabled = false;
+            introForm.butterfly = true;
+            gameplayForm gF = new gameplayForm();
+            this.Hide();
+            gF.ShowDialog();
+            this.Show();
+            this.Dispose();
+        }
 
         private void gameCheck()
         {
             incorrectCountText.Text = wrong + "";
+            correctCountText.Text = correct + "";
+
+            if (prevColour == currentColour)
+            {
+                correct++;
+                correctCountText.Text = correct + "";
+            }
+
+            if (prevColour != currentColour)
+            {
+                wrong++;
+                incorrectCountText.Text = wrong + "";
+            }
 
             if (correct == 3)
             {
-
+                butterflyMusic.Stop();
+                confettiSound.Play();
+                confettiPic.Visible = true;
+                confettiPic.Enabled = true;
+                winTimer.Enabled = true;
             }
 
             if (wrong == 3)
@@ -419,16 +517,6 @@ namespace Escape_The_Haunted_Forest__BOO__
                 lF.ShowDialog();
                 this.Show();
                 this.Dispose();
-            }
-
-            if (prevColour == currentColour)
-            {
-                correct++;
-            }
-
-            if (prevColour != currentColour)
-            {
-                wrong++;
             }
         }
 

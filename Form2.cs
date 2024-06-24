@@ -18,34 +18,42 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             InitializeComponent();
         }
-
+        int win = 0;
         private void gameplayForm_Load(object sender, EventArgs e)
         {
-            if (introForm.globe == true)
+            if (introForm.globe)
             {
                 globeTrophyPic.Visible = true;
                 introForm.introMusic.Play();
                 introForm.introMusic.PlayLooping();
                 globeGamePic.Enabled = false;
+                win++;
             }
 
 
-           else if (introForm.butterfly == true)
-            {
+           if (introForm.butterfly)
+           {
                 butteflyTrophyPic.Visible = true;
                 introForm.introMusic.Play();
                 introForm.introMusic.PlayLooping();
                 butteflyTrophyPic.Enabled = false;
-            }
+                win++;
+           }
 
 
-            else if (introForm.photo == true)
-            {
+           if (introForm.photo)
+           {
                 photoTrophyPic.Visible = true;
                 introForm.introMusic.Play();
                 introForm.introMusic.PlayLooping();
                 photoTrophyPic.Enabled = false;
-            }
+                win++;
+           }
+
+           if (win == 2)
+           {
+                //play drum roll and tadah sound, disable clickable buttons, as tadah plays point to the new, clickable door.
+           }
 
         }
 
@@ -60,7 +68,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void photoPic_Click(object sender, EventArgs e)
         {
-
+            pictureForm pictureFrm = new pictureForm();
+            this.Hide();
+            pictureFrm.ShowDialog();
+            this.Show();
+            this.Dispose();
         }
 
         private void butterflyGamePic_Click(object sender, EventArgs e)

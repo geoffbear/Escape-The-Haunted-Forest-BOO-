@@ -225,7 +225,7 @@ namespace Escape_The_Haunted_Forest__BOO__
                 winTimer.Enabled = true;
             }
 
-            else if (wrong == 5)
+            else if (wrong == 3)
             {
                 loseForm lF = new loseForm();
                 this.Hide();
