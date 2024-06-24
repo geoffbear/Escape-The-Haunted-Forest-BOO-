@@ -24,7 +24,7 @@ namespace Escape_The_Haunted_Forest__BOO__
         List<int> colourRandomizerStart = new List<int>();
         List<int> colourRandomizerEnd = new List<int>();
         Random generator = new Random();
-
+        //BACKGROUNDIMAGED CHANGED IS A BOLEAN COULD BE USEFUL!
         private void bird1Pic_Click(object sender, EventArgs e)
         {
             string colour = "";

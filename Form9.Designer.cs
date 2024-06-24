@@ -92,7 +92,6 @@
             // guessPic
             // 
             this.guessPic.BackColor = System.Drawing.Color.Transparent;
-            this.guessPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.MarioHigh;
             this.guessPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guessPic.Location = new System.Drawing.Point(324, 12);
             this.guessPic.Name = "guessPic";
