@@ -24,42 +24,42 @@ namespace Escape_The_Haunted_Forest__BOO__
         List<int> colourRandomizerStart = new List<int>();
         List<int> colourRandomizerEnd = new List<int>();
         Random generator = new Random();
+        string colour1 = "", colour2 = "", colour3 = "", colour4 = "", colour5 = "", colour6 = "";
         //BACKGROUNDIMAGED CHANGED IS A BOLEAN COULD BE USEFUL!
         private void bird1Pic_Click(object sender, EventArgs e)
         {
-            string colour = "";
             clicks++;
             if (colourRandomizerEnd[0] == 1)
             {
                 bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
-                colour = "blue";
+                colour1 = "blue";
             }
 
             else if (colourRandomizerEnd[0] == 2)
             {
                 bird1Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
-                colour = "green";
+                colour1 = "green";
             }
 
             else if (colourRandomizerEnd[0] == 3)
             {
                 bird1Pic.BackgroundImage = Properties.Resources.ButterflyRed;
-                colour = "red";
+                colour1 = "red";
             }
 
             if (clicks == 1)
             {
-                if (colour == "blue")
+                if (colour1 == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour1 == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour1 == "red")
                 {
                     prevColour = 3;
                 }
@@ -76,17 +76,17 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
 
-                if (colour == "blue")
+                if (colour1 == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour1 == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour1 == "red")
                 {
                     currentColour = 3;
                 }
@@ -97,39 +97,39 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird2Pic_Click(object sender, EventArgs e)
         {
-            string colour = "";
+
             clicks++;
             if (colourRandomizerEnd[1] == 1)
             {
                 bird2Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
-                colour = "blue";
+                colour2 = "blue";
             }
 
             else if (colourRandomizerEnd[1] == 2)
             {
                 bird2Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
-                colour = "green";
+                colour2 = "green";
             }
 
             else if (colourRandomizerEnd[1] == 3)
             {
                 bird2Pic.BackgroundImage= Properties.Resources.ButterflyRed;
-                colour = "red";
+                colour2 = "red";
             }
 
             if (clicks == 1)
             {
-                if (colour == "blue")
+                if (colour2 == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour2 == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour2 == "red")
                 {
                     prevColour = 3;
                 }
@@ -146,17 +146,17 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
 
-                if (colour == "blue")
+                if (colour2 == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour2 == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour2 == "red")
                 {
                     currentColour = 3;
                 }
@@ -166,39 +166,38 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird3Pic_Click(object sender, EventArgs e)
         {
-            string colour = "";
             clicks++;
             if (colourRandomizerEnd[2] == 1)
             {
                 bird3Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
-                colour = "blue";
+                colour3 = "blue";
             }
 
             else if (colourRandomizerEnd[2] == 2)
             {
                 bird3Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
-                colour = "green";
+                colour3 = "green";
             }
 
             else if (colourRandomizerEnd[2] == 3)
             {
                 bird3Pic.BackgroundImage = Properties.Resources.ButterflyRed;
-                colour = "red";
+                colour3 = "red";
             }
 
             if (clicks == 1)
             {
-                if (colour == "blue")
+                if (colour3 == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour3 == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour3 == "red")
                 {
                     prevColour = 3;
                 }
@@ -215,17 +214,17 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
 
-                if (colour == "blue")
+                if (colour3 == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour3 == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour3 == "red")
                 {
                     currentColour = 3;
                 }
@@ -235,39 +234,38 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird4Pic_Click(object sender, EventArgs e)
         {
-            string colour = "";
             clicks++;
             if (colourRandomizerEnd[3] == 1)
             {
                 bird4Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
-                colour = "blue";
+                colour4 = "blue";
             }
 
             else if (colourRandomizerEnd[3] == 2)
             {
                 bird4Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
-                colour = "green";
+                colour4 = "green";
             }
 
             else if (colourRandomizerEnd[3] == 3)
             {
                 bird4Pic.BackgroundImage = Properties.Resources.ButterflyRed;
-                colour = "red";
+                colour4 = "red";
             }
 
             if (clicks == 1)
             {
-                if (colour == "blue")
+                if (colour4 == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour4 == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour4 == "red")
                 {
                     prevColour = 3;
                 }
@@ -284,17 +282,17 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
 
-                if (colour == "blue")
+                if (colour4 == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour4 == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour4 == "red")
                 {
                     currentColour = 3;
                 }
@@ -305,39 +303,38 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird5Pic_Click(object sender, EventArgs e)
         {
-            string colour = "";
             clicks++;
             if (colourRandomizerEnd[4] == 1)
             {
                 bird5Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
-                colour = "blue";
+                colour5 = "blue";
             }
 
             else if (colourRandomizerEnd[4] == 2)
             {
                 bird5Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
-                colour = "green"; 
+                colour5 = "green"; 
             }
 
             else if (colourRandomizerEnd[4] == 3)
             {
                 bird5Pic.BackgroundImage = Properties.Resources.ButterflyRed;
-                colour = "red";
+                colour5 = "red";
             }
 
             if (clicks == 1)
             {
-                if (colour == "blue")
+                if (colour5 == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour5 == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour5 == "red")
                 {
                     prevColour = 3;
                 }
@@ -354,17 +351,17 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
 
-                if (colour == "blue")
+                if (colour5 == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour5 == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour5 == "red")
                 {
                     currentColour = 3;
                 }
@@ -374,39 +371,38 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void bird6Pic_Click(object sender, EventArgs e)
         {
-            string colour = "";
             clicks++;
             if (colourRandomizerEnd[5] == 1)
             {
                 bird6Pic.BackgroundImage = Properties.Resources.ButterflyBlue;
-                colour = "blue";
+                colour6 = "blue";
             }
 
             else if (colourRandomizerEnd[5] == 2)
             {
                 bird6Pic.BackgroundImage = Properties.Resources.ButterflyGreen;
-                colour = "green";
+                colour6 = "green";
             }
 
             else if (colourRandomizerEnd[5] == 3)
             {
                 bird6Pic.BackgroundImage = Properties.Resources.ButterflyRed;
-                colour = "red";
+                colour6 = "red";
             }
 
             if (clicks == 1)
             {
-                if (colour == "blue")
+                if (colour6 == "blue")
                 {
                     prevColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour6 == "green")
                 {
                     prevColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour6 == "red")
                 {
                     prevColour = 3;
                 }
@@ -423,17 +419,17 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
 
-                if (colour == "blue")
+                if (colour6 == "blue")
                 {
                     currentColour = 1;
                 }
 
-                else if (colour == "green")
+                else if (colour6 == "green")
                 {
                     currentColour = 2;
                 }
 
-                else if (colour == "red")
+                else if (colour6 == "red")
                 {
                     currentColour = 3;
                 }
