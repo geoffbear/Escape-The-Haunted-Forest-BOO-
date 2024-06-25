@@ -27,7 +27,7 @@ namespace Escape_The_Haunted_Forest__BOO__
             if (e.KeyCode == Keys.Enter)
             {
 
-                if (guessText.Text == "ATMOSPHERE" && random == 1)
+                if (guessText.Text.Trim().ToUpper() == "ATMOSPHERE" && random == 1)
                 {
                     correct++;
                 }
