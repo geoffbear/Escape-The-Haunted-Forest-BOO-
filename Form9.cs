@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,8 +17,74 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             InitializeComponent();
         }
+
         int skips = 5, correct = 0, wrong = 0, random;
         Random generator = new Random();
+        SoundPlayer confettiSound = new SoundPlayer(Properties.Resources.Confetti1);
+
+        private void pictureForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+
+                if (guessText.Text == "ATMOSPHERE" && random == 1)
+                {
+                    correct++;
+                }
+
+                else if (guessText.Text.Trim().ToUpper() == "ETHAN" && random == 2)
+                {
+                    correct++;
+                }
+
+                else if (guessText.Text.Trim().ToUpper() == "JIM CARREY" && random == 3)
+                {
+                    correct++;
+                }
+
+                else if (guessText.Text.Trim().ToUpper() == "JUSTIN TRUDEAU" && random == 4)
+                {
+                    correct++;
+                }
+
+                else if (guessText.Text.Trim().ToUpper() == "KANYE WEST" && random == 5)
+                {
+                    correct++;
+                }
+
+                else if (guessText.Text.Trim().ToUpper() == "MARIO" && random == 6)
+                {
+                    correct++;
+                }
+
+                else if (guessText.Text.Trim().ToUpper() == "MONA LISA" && random == 7)
+                {
+                    correct++;
+                }
+
+                else if (guessText.Text.Trim().ToUpper() == "NICK" && random == 8)
+                {
+                    correct++;
+                }
+
+                else
+                    wrong++;
+
+                winCheck();
+            }
+        }
+
+        private void winTimer_Tick(object sender, EventArgs e)
+        {
+            winTimer.Enabled = false;
+            introForm.photo = true;
+            gameplayForm gF = new gameplayForm();
+            this.Hide();
+            gF.ShowDialog();
+            this.Show();
+            this.Dispose();
+        }
+
         //1 = Atmosphere, 2 = Ethan, 3 = Jim Carrey, 4 = Justin Trudeau, 5 = Kanye West, 6 = Mario, 7 = Mona Lisa, 8 = Nick.
 
         private void pictureForm_Load(object sender, EventArgs e)
@@ -81,10 +148,31 @@ namespace Escape_The_Haunted_Forest__BOO__
                 guessPic.Location = new Point(324, 12);
                 guessPic.Size = new Size(201, 436);
             }
-            
+
             //Low = Highest number - 32
             //Med = Highest number - 64
             //High = Dowloaded Size
         }
+
+        private void winCheck()
+        {
+            winCountText.Text = correct + "";
+
+            if (correct == 5)
+            {
+                winTimer.Enabled = true;
+                confettiSound.Play();
+            }
+
+            else if (wrong == 1)
+            {
+                loseForm lF = new loseForm();
+                this.Hide();
+                lF.ShowDialog();
+                this.Show();
+                this.Dispose();
+            }
+        }
     }
 }
+
