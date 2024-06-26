@@ -126,6 +126,7 @@
             this.winPic.Size = new System.Drawing.Size(120, 356);
             this.winPic.TabIndex = 6;
             this.winPic.TabStop = false;
+            this.winPic.Click += new System.EventHandler(this.winPic_Click);
             // 
             // drumRollTimer
             // 

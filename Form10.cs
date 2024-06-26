@@ -17,10 +17,11 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             InitializeComponent();
         }
-        SoundPlayer win = new SoundPlayer();
+        SoundPlayer win = new SoundPlayer(Properties.Resources.Applause);
         private void winForm_Load(object sender, EventArgs e)
         {
             winTimer.Enabled = true;
+            win.Play();
         }
 
         private void winTimer_Tick(object sender, EventArgs e)

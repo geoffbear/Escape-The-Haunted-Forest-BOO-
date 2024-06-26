@@ -100,5 +100,14 @@ namespace Escape_The_Haunted_Forest__BOO__
             yay.Play();
             arrowPic.Visible = true;
         }
+
+        private void winPic_Click(object sender, EventArgs e)
+        {
+            winForm wf = new winForm();
+            this.Hide();
+            wf.ShowDialog();
+            this.Show();
+            this.Dispose();
+        }
     }
 }

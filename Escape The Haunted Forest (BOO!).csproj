@@ -324,5 +324,8 @@
   <ItemGroup>
     <None Include="Resources\LuckyCharms.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Applause.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
