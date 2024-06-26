@@ -150,6 +150,7 @@
             // 
             // colourRevealTimer
             // 
+            this.colourRevealTimer.Interval = 1000;
             this.colourRevealTimer.Tick += new System.EventHandler(this.colourRevealTimer_Tick);
             // 
             // correctText

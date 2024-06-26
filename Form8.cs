@@ -20,12 +20,12 @@ namespace Escape_The_Haunted_Forest__BOO__
         }
         SoundPlayer butterflyMusic = new SoundPlayer(Properties.Resources.ButterflyMusic);
         SoundPlayer confettiSound = new SoundPlayer(Properties.Resources.Confetti1);
-        int wrong = 0, correct = 0, clicks = 0, random, prevColour, currentColour;
+        int wrong = 0, correct = 0, clicks = 0, random;
         List<int> colourRandomizerStart = new List<int>();
         List<int> colourRandomizerEnd = new List<int>();
         Random generator = new Random();
-        string colour1 = "", colour2 = "", colour3 = "", colour4 = "", colour5 = "", colour6 = "";
-        //BACKGROUNDIMAGED CHANGED IS A BOLEAN COULD BE USEFUL!
+        string colour1 = "1", colour2 = "2", colour3 = "3", colour4 = "4", colour5 = "5", colour6 = "6";
+
         private void bird1Pic_Click(object sender, EventArgs e)
         {
             clicks++;
@@ -49,47 +49,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             if (clicks == 1)
             {
-                if (colour1 == "blue")
-                {
-                    prevColour = 1;
-                }
 
-                else if (colour1 == "green")
-                {
-                    prevColour = 2;
-                }
-
-                else if (colour1 == "red")
-                {
-                    prevColour = 3;
-                }
             }
 
             else if (clicks == 2)
             {
-                gameCheck();
-                colourRevealTimer.Enabled = true;
-                bird1Pic.Enabled = false;
-                bird2Pic.Enabled = false;
-                bird3Pic.Enabled = false;
-                bird4Pic.Enabled = false;
-                bird5Pic.Enabled = false;
-                bird6Pic.Enabled = false;
-
-                if (colour1 == "blue")
-                {
-                    currentColour = 1;
-                }
-
-                else if (colour1 == "green")
-                {
-                    currentColour = 2;
-                }
-
-                else if (colour1 == "red")
-                {
-                    currentColour = 3;
-                }
                 clicks = 0;
             }
         }
@@ -119,25 +83,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             if (clicks == 1)
             {
-                if (colour2 == "blue")
-                {
-                    prevColour = 1;
-                }
 
-                else if (colour2 == "green")
-                {
-                    prevColour = 2;
-                }
-
-                else if (colour2 == "red")
-                {
-                    prevColour = 3;
-                }
             }
 
             else if (clicks == 2)
             {
-                gameCheck();
                 colourRevealTimer.Enabled = true;
                 bird1Pic.Enabled = false;
                 bird2Pic.Enabled = false;
@@ -145,21 +95,6 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird4Pic.Enabled = false;
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
-
-                if (colour2 == "blue")
-                {
-                    currentColour = 1;
-                }
-
-                else if (colour2 == "green")
-                {
-                    currentColour = 2;
-                }
-
-                else if (colour2 == "red")
-                {
-                    currentColour = 3;
-                }
                 clicks = 0;
             }
         }
@@ -187,25 +122,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             if (clicks == 1)
             {
-                if (colour3 == "blue")
-                {
-                    prevColour = 1;
-                }
 
-                else if (colour3 == "green")
-                {
-                    prevColour = 2;
-                }
-
-                else if (colour3 == "red")
-                {
-                    prevColour = 3;
-                }
             }
 
             else if (clicks == 2)
             {
-                gameCheck();
                 colourRevealTimer.Enabled = true;
                 bird1Pic.Enabled = false;
                 bird2Pic.Enabled = false;
@@ -213,21 +134,6 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird4Pic.Enabled = false;
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
-
-                if (colour3 == "blue")
-                {
-                    currentColour = 1;
-                }
-
-                else if (colour3 == "green")
-                {
-                    currentColour = 2;
-                }
-
-                else if (colour3 == "red")
-                {
-                    currentColour = 3;
-                }
                 clicks = 0;
             }
         }
@@ -255,25 +161,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             if (clicks == 1)
             {
-                if (colour4 == "blue")
-                {
-                    prevColour = 1;
-                }
 
-                else if (colour4 == "green")
-                {
-                    prevColour = 2;
-                }
-
-                else if (colour4 == "red")
-                {
-                    prevColour = 3;
-                }
             }
 
             else if (clicks == 2)
             {
-                gameCheck();
                 colourRevealTimer.Enabled = true;
                 bird1Pic.Enabled = false;
                 bird2Pic.Enabled = false;
@@ -281,21 +173,6 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird4Pic.Enabled = false;
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
-
-                if (colour4 == "blue")
-                {
-                    currentColour = 1;
-                }
-
-                else if (colour4 == "green")
-                {
-                    currentColour = 2;
-                }
-
-                else if (colour4 == "red")
-                {
-                    currentColour = 3;
-                }
                 clicks = 0;
             }
 
@@ -324,25 +201,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             if (clicks == 1)
             {
-                if (colour5 == "blue")
-                {
-                    prevColour = 1;
-                }
 
-                else if (colour5 == "green")
-                {
-                    prevColour = 2;
-                }
-
-                else if (colour5 == "red")
-                {
-                    prevColour = 3;
-                }
             }
 
             else if (clicks == 2)
             {
-                gameCheck();
                 colourRevealTimer.Enabled = true;
                 bird1Pic.Enabled = false;
                 bird2Pic.Enabled = false;
@@ -350,21 +213,6 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird4Pic.Enabled = false;
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
-
-                if (colour5 == "blue")
-                {
-                    currentColour = 1;
-                }
-
-                else if (colour5 == "green")
-                {
-                    currentColour = 2;
-                }
-
-                else if (colour5 == "red")
-                {
-                    currentColour = 3;
-                }
                 clicks = 0;
             }
         }
@@ -392,25 +240,11 @@ namespace Escape_The_Haunted_Forest__BOO__
 
             if (clicks == 1)
             {
-                if (colour6 == "blue")
-                {
-                    prevColour = 1;
-                }
 
-                else if (colour6 == "green")
-                {
-                    prevColour = 2;
-                }
-
-                else if (colour6 == "red")
-                {
-                    prevColour = 3;
-                }
             }
 
             else if (clicks == 2)
             {
-                gameCheck();
                 colourRevealTimer.Enabled = true;
                 bird1Pic.Enabled = false;
                 bird2Pic.Enabled = false;
@@ -418,21 +252,6 @@ namespace Escape_The_Haunted_Forest__BOO__
                 bird4Pic.Enabled = false;
                 bird5Pic.Enabled = false;
                 bird6Pic.Enabled = false;
-
-                if (colour6 == "blue")
-                {
-                    currentColour = 1;
-                }
-
-                else if (colour6 == "green")
-                {
-                    currentColour = 2;
-                }
-
-                else if (colour6 == "red")
-                {
-                    currentColour = 3;
-                }
                 clicks = 0;
             }
         }
@@ -445,9 +264,403 @@ namespace Escape_The_Haunted_Forest__BOO__
             bird4Pic.Enabled = true;
             bird5Pic.Enabled = true;
             bird6Pic.Enabled = true;
-            if (prevColour == currentColour || prevColour != 0 || currentColour != 0)
-            {
+            bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+            bird2Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+            bird3Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+            bird4Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+            bird5Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+            bird6Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
 
+            if (colour1 == colour2 && bird1Pic.Visible && bird2Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird1Pic.Visible = false;
+                    bird2Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour1 == colour3 && bird1Pic.Visible && bird3Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird1Pic.Visible = false;
+                    bird3Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour1 == colour4 && bird1Pic.Visible && bird4Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird1Pic.Visible = false;
+                    bird4Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour1 == colour5 && bird1Pic.Visible && bird5Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird1Pic.Visible = false;
+                    bird5Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+                
+                else if (colour1 == colour6 && bird1Pic.Visible && bird6Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird1Pic.Visible = false;
+                    bird6Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour2 == colour3 && bird2Pic.Visible && bird3Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird2Pic.Visible = false;
+                    bird3Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour2 == colour4 && bird2Pic.Visible && bird4Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird2Pic.Visible = false;
+                    bird4Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour2 == colour5 && bird2Pic.Visible && bird5Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird2Pic.Visible = false;
+                    bird5Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour2 == colour6 && bird2Pic.Visible && bird6Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird2Pic.Visible = false;
+                    bird6Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour3 == colour4 && bird3Pic.Visible && bird4Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird3Pic.Visible = false;
+                    bird4Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour3 == colour5 && bird3Pic.Visible && bird6Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird3Pic.Visible = false;
+                    bird5Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour3 == colour6 && bird3Pic.Visible && bird6Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird3Pic.Visible = false;
+                    bird6Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour4 == colour5 && bird4Pic.Visible && bird5Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird4Pic.Visible = false;
+                    bird5Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+                else if (colour5 == colour6 && bird5Pic.Visible && bird6Pic.Visible)
+                {
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                bird5Pic.Visible = false;
+                    bird6Pic.Visible = false;
+                    correct++;
+                    gameCheck();
+                }
+
+            else if (colour1 != colour2)
+            {
+                bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird2Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour1 != colour3)
+            {
+                bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird3Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour1 != colour4)
+            {
+                bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird4Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour1 != colour5)
+            {
+                bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird5Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour1 != colour6)
+            {
+                bird1Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird6Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour2 != colour3)
+            {
+                bird2Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird3Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour2 != colour4)
+            {
+                bird2Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird4Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour2 != colour5)
+            {
+                bird2Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird5Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour2 != colour6)
+            {
+                bird2Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird6Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour3 != colour4)
+            {
+                bird3Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird4Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour3 != colour5)
+            {
+                bird3Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird5Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour3 != colour6)
+            {
+                bird3Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird6Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour4 != colour5)
+            {
+                bird4Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird5Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
+            }
+
+            else if (colour5 != colour6)
+            {
+                bird5Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                bird6Pic.BackgroundImage = Properties.Resources.ButterflyBlank;
+                colour1 = "1";
+                colour2 = "2";
+                colour3 = "3";
+                colour4 = "4";
+                colour5 = "5";
+                colour6 = "6";
+                wrong++;
+                gameCheck();
             }
         }
 
@@ -467,6 +680,12 @@ namespace Escape_The_Haunted_Forest__BOO__
                 random = generator.Next(colourRandomizerStart.First(), (colourRandomizerStart.Last() + 1));
                 colourRandomizerEnd.Add(random);
                 colourRandomizerStart.Remove(random);
+
+                if (!colourRandomizerStart.Contains(2) && colourRandomizerStart.Contains(1) && colourRandomizerStart.Contains(3))
+                {
+                    while (random == 2)
+                        random = generator.Next(colourRandomizerStart.First(), (colourRandomizerStart.Last() + 1));
+                }
             }
         }
         private void winTimer_Tick(object sender, EventArgs e)
@@ -484,18 +703,6 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             incorrectCountText.Text = wrong + "";
             correctCountText.Text = correct + "";
-
-            if (prevColour == currentColour)
-            {
-                correct++;
-                correctCountText.Text = correct + "";
-            }
-
-            if (prevColour != currentColour)
-            {
-                wrong++;
-                incorrectCountText.Text = wrong + "";
-            }
 
             if (correct == 3)
             {

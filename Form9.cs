@@ -30,41 +30,49 @@ namespace Escape_The_Haunted_Forest__BOO__
                 if (guessText.Text.Trim().ToUpper() == "ATMOSPHERE" && random == 1)
                 {
                     correct++;
+                    winCheck();
                 }
 
                 else if (guessText.Text.Trim().ToUpper() == "ETHAN" && random == 2)
                 {
                     correct++;
+                    winCheck();
                 }
 
                 else if (guessText.Text.Trim().ToUpper() == "JIM CARREY" && random == 3)
                 {
                     correct++;
+                    winCheck();
                 }
 
                 else if (guessText.Text.Trim().ToUpper() == "JUSTIN TRUDEAU" && random == 4)
                 {
                     correct++;
+                    winCheck();
                 }
 
                 else if (guessText.Text.Trim().ToUpper() == "KANYE WEST" && random == 5)
                 {
                     correct++;
+                    winCheck();
                 }
 
                 else if (guessText.Text.Trim().ToUpper() == "MARIO" && random == 6)
                 {
                     correct++;
+                    winCheck();
                 }
 
                 else if (guessText.Text.Trim().ToUpper() == "MONA LISA" && random == 7)
                 {
                     correct++;
+                    winCheck();
                 }
 
                 else if (guessText.Text.Trim().ToUpper() == "NICK" && random == 8)
                 {
                     correct++;
+                    winCheck();
                 }
 
                 else

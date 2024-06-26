@@ -7,6 +7,7 @@ using System.Linq;
 using System.Media;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Data;
 using System.Windows.Forms;
 using System.Windows.Input;
 
@@ -23,6 +24,7 @@ namespace Escape_The_Haunted_Forest__BOO__
         {
             if (introForm.globe)
             {
+                globeGamePic.Enabled = false;
                 globeTrophyPic.Visible = true;
                 introForm.introMusic.Play();
                 introForm.introMusic.PlayLooping();
@@ -33,6 +35,7 @@ namespace Escape_The_Haunted_Forest__BOO__
 
            if (introForm.butterfly)
            {
+                butterflyGamePic.Enabled = false;
                 butteflyTrophyPic.Visible = true;
                 introForm.introMusic.Play();
                 introForm.introMusic.PlayLooping();
@@ -43,6 +46,7 @@ namespace Escape_The_Haunted_Forest__BOO__
 
            if (introForm.photo)
            {
+                photoPic.Enabled = false;
                 photoTrophyPic.Visible = true;
                 introForm.introMusic.Play();
                 introForm.introMusic.PlayLooping();
