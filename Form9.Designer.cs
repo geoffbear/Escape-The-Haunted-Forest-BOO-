@@ -40,6 +40,7 @@
             this.confettiPic = new System.Windows.Forms.PictureBox();
             this.skipButton = new System.Windows.Forms.Button();
             this.guessPic = new System.Windows.Forms.PictureBox();
+            this.submissionButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.confettiPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guessPic)).BeginInit();
             this.SuspendLayout();
@@ -85,11 +86,11 @@
             // submissionText
             // 
             this.submissionText.AutoSize = true;
-            this.submissionText.Location = new System.Drawing.Point(133, 525);
+            this.submissionText.Location = new System.Drawing.Point(12, 524);
             this.submissionText.Name = "submissionText";
-            this.submissionText.Size = new System.Drawing.Size(111, 13);
+            this.submissionText.Size = new System.Drawing.Size(81, 13);
             this.submissionText.TabIndex = 6;
-            this.submissionText.Text = "(Press enter to submit)";
+            this.submissionText.Text = "(Click to submit)";
             // 
             // winCountText
             // 
@@ -121,7 +122,7 @@
             this.confettiPic.BackColor = System.Drawing.Color.Transparent;
             this.confettiPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.Confetti;
             this.confettiPic.Enabled = false;
-            this.confettiPic.Location = new System.Drawing.Point(310, -15);
+            this.confettiPic.Location = new System.Drawing.Point(2, -6);
             this.confettiPic.Name = "confettiPic";
             this.confettiPic.Size = new System.Drawing.Size(834, 586);
             this.confettiPic.TabIndex = 13;
@@ -140,6 +141,7 @@
             this.skipButton.Size = new System.Drawing.Size(172, 82);
             this.skipButton.TabIndex = 3;
             this.skipButton.UseVisualStyleBackColor = true;
+            this.skipButton.Click += new System.EventHandler(this.skipButton_Click);
             // 
             // guessPic
             // 
@@ -150,6 +152,16 @@
             this.guessPic.Size = new System.Drawing.Size(201, 436);
             this.guessPic.TabIndex = 0;
             this.guessPic.TabStop = false;
+            // 
+            // submissionButton
+            // 
+            this.submissionButton.Location = new System.Drawing.Point(99, 525);
+            this.submissionButton.Name = "submissionButton";
+            this.submissionButton.Size = new System.Drawing.Size(273, 23);
+            this.submissionButton.TabIndex = 14;
+            this.submissionButton.Text = "Enter";
+            this.submissionButton.UseVisualStyleBackColor = true;
+            this.submissionButton.Click += new System.EventHandler(this.submissionButton_Click);
             // 
             // pictureForm
             // 
@@ -166,11 +178,11 @@
             this.Controls.Add(this.skipsCountText);
             this.Controls.Add(this.skipsText);
             this.Controls.Add(this.guessPic);
+            this.Controls.Add(this.submissionButton);
             this.Name = "pictureForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Picture Game";
             this.Load += new System.EventHandler(this.pictureForm_Load);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.pictureForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.confettiPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guessPic)).EndInit();
             this.ResumeLayout(false);
@@ -191,5 +203,6 @@
         private System.Windows.Forms.Label winText;
         private System.Windows.Forms.PictureBox confettiPic;
         private System.Windows.Forms.Timer winTimer;
+        private System.Windows.Forms.Button submissionButton;
     }
 }
