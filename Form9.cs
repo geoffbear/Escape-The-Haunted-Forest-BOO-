@@ -18,7 +18,7 @@ namespace Escape_The_Haunted_Forest__BOO__
             InitializeComponent();
         }
 
-        int skips = 5, correct = 0, wrong = 0, random, image;
+        int skips = 5, correct = 0, wrong = 0, random;
         Random generator = new Random();
         SoundPlayer confettiSound = new SoundPlayer(Properties.Resources.Confetti1);
 
@@ -93,7 +93,7 @@ namespace Escape_The_Haunted_Forest__BOO__
             {
                 skipButton.Enabled = false;
             }
-            if (guessPic.BackgroundImage == Properties.Resources.AtmosphereLow)
+            else if (guessPic.BackgroundImage == Properties.Resources.AtmosphereLow)
             {
                 guessPic.BackgroundImage = Properties.Resources.AtmosphereMed;
             }
@@ -156,10 +156,6 @@ namespace Escape_The_Haunted_Forest__BOO__
             else if (guessPic.BackgroundImage == Properties.Resources.NickMed)
             {
                 guessPic.BackgroundImage = Properties.Resources.NickHigh;
-            }
-            else
-            {
-                newImage();
             }
 
         }

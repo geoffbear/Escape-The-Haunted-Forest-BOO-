@@ -56,7 +56,7 @@ namespace Escape_The_Haunted_Forest__BOO__
                 win++;
            }
 
-           if (win == 3)
+           if (win == 2)
            {
                 //play drum roll and tadah sound, disable clickable buttons, as tadah plays point to the new, clickable door.
                 drumRollTimer.Enabled = true;

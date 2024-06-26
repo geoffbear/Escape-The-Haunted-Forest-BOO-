@@ -20,7 +20,7 @@ namespace Escape_The_Haunted_Forest__BOO__
         }
         SoundPlayer butterflyMusic = new SoundPlayer(Properties.Resources.ButterflyMusic);
         SoundPlayer confettiSound = new SoundPlayer(Properties.Resources.Confetti1);
-        int wrong = 0, correct = 0, clicks = 0, random;
+        int wrong = 0, correct = 0, clicks = 0, random, random2;
         List<int> colourRandomizerStart = new List<int>();
         List<int> colourRandomizerEnd = new List<int>();
         Random generator = new Random();
@@ -681,11 +681,21 @@ namespace Escape_The_Haunted_Forest__BOO__
                 colourRandomizerEnd.Add(random);
                 colourRandomizerStart.Remove(random);
 
-                if (!colourRandomizerStart.Contains(2) && colourRandomizerStart.Contains(1) && colourRandomizerStart.Contains(3))
+                if (!colourRandomizerStart.Contains(2) && random == 2)
                 {
-                    while (random == 2)
-                        random = generator.Next(colourRandomizerStart.First(), (colourRandomizerStart.Last() + 1));
+                    random2 = generator.Next(1, 4);
+                    if (random2 != 2)
+                    {
+                        random = random2;
+                    }
+
+                    else while (random2 == 2)
+                    {
+                        random2 = generator.Next(1, 4);
+                    }
+                    
                 }
+                
             }
         }
         private void winTimer_Tick(object sender, EventArgs e)

@@ -122,7 +122,7 @@
             this.confettiPic.BackColor = System.Drawing.Color.Transparent;
             this.confettiPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.Confetti;
             this.confettiPic.Enabled = false;
-            this.confettiPic.Location = new System.Drawing.Point(2, -6);
+            this.confettiPic.Location = new System.Drawing.Point(2, 2);
             this.confettiPic.Name = "confettiPic";
             this.confettiPic.Size = new System.Drawing.Size(834, 586);
             this.confettiPic.TabIndex = 13;
