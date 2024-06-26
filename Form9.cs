@@ -24,62 +24,7 @@ namespace Escape_The_Haunted_Forest__BOO__
 
         private void pictureForm_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-            {
-
-                if (guessText.Text.Trim().ToUpper() == "ATMOSPHERE" && random == 1)
-                {
-                    correct++;
-                    winCheck();
-                }
-
-                else if (guessText.Text.Trim().ToUpper() == "ETHAN" && random == 2)
-                {
-                    correct++;
-                    winCheck();
-                }
-
-                else if (guessText.Text.Trim().ToUpper() == "JIM CARREY" && random == 3)
-                {
-                    correct++;
-                    winCheck();
-                }
-
-                else if (guessText.Text.Trim().ToUpper() == "JUSTIN TRUDEAU" && random == 4)
-                {
-                    correct++;
-                    winCheck();
-                }
-
-                else if (guessText.Text.Trim().ToUpper() == "KANYE WEST" && random == 5)
-                {
-                    correct++;
-                    winCheck();
-                }
-
-                else if (guessText.Text.Trim().ToUpper() == "MARIO" && random == 6)
-                {
-                    correct++;
-                    winCheck();
-                }
-
-                else if (guessText.Text.Trim().ToUpper() == "MONA LISA" && random == 7)
-                {
-                    correct++;
-                    winCheck();
-                }
-
-                else if (guessText.Text.Trim().ToUpper() == "NICK" && random == 8)
-                {
-                    correct++;
-                    winCheck();
-                }
-
-                else
-                    wrong++;
-
-                winCheck();
-            }
+            
         }
 
         private void winTimer_Tick(object sender, EventArgs e)

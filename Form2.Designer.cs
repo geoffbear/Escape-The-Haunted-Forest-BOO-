@@ -28,18 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.photoPic = new System.Windows.Forms.PictureBox();
             this.globeGamePic = new System.Windows.Forms.PictureBox();
             this.butterflyGamePic = new System.Windows.Forms.PictureBox();
             this.globeTrophyPic = new System.Windows.Forms.PictureBox();
             this.butteflyTrophyPic = new System.Windows.Forms.PictureBox();
             this.photoTrophyPic = new System.Windows.Forms.PictureBox();
+            this.winPic = new System.Windows.Forms.PictureBox();
+            this.drumRollTimer = new System.Windows.Forms.Timer(this.components);
+            this.arrowPic = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.photoPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.globeGamePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.butterflyGamePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.globeTrophyPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.butteflyTrophyPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.photoTrophyPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.winPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.arrowPic)).BeginInit();
             this.SuspendLayout();
             // 
             // photoPic
@@ -111,11 +117,40 @@
             this.photoTrophyPic.TabStop = false;
             this.photoTrophyPic.Visible = false;
             // 
+            // winPic
+            // 
+            this.winPic.BackColor = System.Drawing.Color.Transparent;
+            this.winPic.Enabled = false;
+            this.winPic.Location = new System.Drawing.Point(640, 92);
+            this.winPic.Name = "winPic";
+            this.winPic.Size = new System.Drawing.Size(120, 356);
+            this.winPic.TabIndex = 6;
+            this.winPic.TabStop = false;
+            // 
+            // drumRollTimer
+            // 
+            this.drumRollTimer.Interval = 5500;
+            this.drumRollTimer.Tick += new System.EventHandler(this.drumRollTimer_Tick);
+            // 
+            // arrowPic
+            // 
+            this.arrowPic.BackColor = System.Drawing.Color.Transparent;
+            this.arrowPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.RedArrow1;
+            this.arrowPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.arrowPic.Location = new System.Drawing.Point(480, 92);
+            this.arrowPic.Name = "arrowPic";
+            this.arrowPic.Size = new System.Drawing.Size(154, 139);
+            this.arrowPic.TabIndex = 7;
+            this.arrowPic.TabStop = false;
+            this.arrowPic.Visible = false;
+            // 
             // gameplayForm
             // 
             this.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.EscapeRoom;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(839, 583);
+            this.Controls.Add(this.arrowPic);
+            this.Controls.Add(this.winPic);
             this.Controls.Add(this.photoTrophyPic);
             this.Controls.Add(this.butteflyTrophyPic);
             this.Controls.Add(this.globeTrophyPic);
@@ -132,6 +167,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.globeTrophyPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.butteflyTrophyPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.photoTrophyPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.winPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.arrowPic)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -145,5 +182,8 @@
         private System.Windows.Forms.PictureBox globeTrophyPic;
         private System.Windows.Forms.PictureBox butteflyTrophyPic;
         private System.Windows.Forms.PictureBox photoTrophyPic;
+        private System.Windows.Forms.PictureBox winPic;
+        private System.Windows.Forms.Timer drumRollTimer;
+        private System.Windows.Forms.PictureBox arrowPic;
     }
 }

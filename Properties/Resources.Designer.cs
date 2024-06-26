@@ -198,6 +198,15 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream DrumRoll {
+            get {
+                return ResourceManager.GetStream("DrumRoll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap EscapeRoom {
@@ -601,6 +610,15 @@ namespace Escape_The_Haunted_Forest__BOO__.Properties {
             get {
                 object obj = ResourceManager.GetObject("Transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Yay {
+            get {
+                return ResourceManager.GetStream("Yay", resourceCulture);
             }
         }
     }

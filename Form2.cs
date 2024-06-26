@@ -20,6 +20,8 @@ namespace Escape_The_Haunted_Forest__BOO__
             InitializeComponent();
         }
         int win = 0;
+        SoundPlayer drumRoll = new SoundPlayer(Properties.Resources.DrumRoll);
+        SoundPlayer yay = new SoundPlayer(Properties.Resources.Yay);
         private void gameplayForm_Load(object sender, EventArgs e)
         {
             if (introForm.globe)
@@ -57,6 +59,9 @@ namespace Escape_The_Haunted_Forest__BOO__
            if (win == 2)
            {
                 //play drum roll and tadah sound, disable clickable buttons, as tadah plays point to the new, clickable door.
+                drumRollTimer.Enabled = true;
+                drumRoll.Play();
+                winPic.Enabled = true;
            }
 
         }
@@ -86,6 +91,14 @@ namespace Escape_The_Haunted_Forest__BOO__
             bGame.ShowDialog();
             this.Show();
             this.Dispose();
+        }
+
+        private void drumRollTimer_Tick(object sender, EventArgs e)
+        {
+            drumRollTimer.Enabled = false;
+            drumRoll.Stop();
+            yay.Play();
+            arrowPic.Visible = true;
         }
     }
 }

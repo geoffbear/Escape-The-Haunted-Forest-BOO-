@@ -33,15 +33,15 @@
             this.skipsCountText = new System.Windows.Forms.Label();
             this.guessText = new System.Windows.Forms.TextBox();
             this.enterText = new System.Windows.Forms.Label();
-            this.skipButton = new System.Windows.Forms.Button();
-            this.guessPic = new System.Windows.Forms.PictureBox();
             this.submissionText = new System.Windows.Forms.Label();
             this.winCountText = new System.Windows.Forms.Label();
             this.winText = new System.Windows.Forms.Label();
-            this.confettiPic = new System.Windows.Forms.PictureBox();
             this.winTimer = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.guessPic)).BeginInit();
+            this.confettiPic = new System.Windows.Forms.PictureBox();
+            this.skipButton = new System.Windows.Forms.Button();
+            this.guessPic = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.confettiPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guessPic)).BeginInit();
             this.SuspendLayout();
             // 
             // skipsText
@@ -82,29 +82,6 @@
             this.enterText.TabIndex = 5;
             this.enterText.Text = "Enter your guess here:";
             // 
-            // skipButton
-            // 
-            this.skipButton.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.RedArrow1;
-            this.skipButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.skipButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.skipButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.skipButton.ForeColor = System.Drawing.Color.Transparent;
-            this.skipButton.Location = new System.Drawing.Point(664, 489);
-            this.skipButton.Name = "skipButton";
-            this.skipButton.Size = new System.Drawing.Size(172, 82);
-            this.skipButton.TabIndex = 3;
-            this.skipButton.UseVisualStyleBackColor = true;
-            // 
-            // guessPic
-            // 
-            this.guessPic.BackColor = System.Drawing.Color.Transparent;
-            this.guessPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guessPic.Location = new System.Drawing.Point(324, 12);
-            this.guessPic.Name = "guessPic";
-            this.guessPic.Size = new System.Drawing.Size(201, 436);
-            this.guessPic.TabIndex = 0;
-            this.guessPic.TabStop = false;
-            // 
             // submissionText
             // 
             this.submissionText.AutoSize = true;
@@ -134,22 +111,45 @@
             this.winText.TabIndex = 8;
             this.winText.Text = "Answers Correct:";
             // 
+            // winTimer
+            // 
+            this.winTimer.Interval = 2500;
+            this.winTimer.Tick += new System.EventHandler(this.winTimer_Tick);
+            // 
             // confettiPic
             // 
             this.confettiPic.BackColor = System.Drawing.Color.Transparent;
             this.confettiPic.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.Confetti;
             this.confettiPic.Enabled = false;
-            this.confettiPic.Location = new System.Drawing.Point(647, -48);
+            this.confettiPic.Location = new System.Drawing.Point(310, -15);
             this.confettiPic.Name = "confettiPic";
             this.confettiPic.Size = new System.Drawing.Size(834, 586);
             this.confettiPic.TabIndex = 13;
             this.confettiPic.TabStop = false;
             this.confettiPic.Visible = false;
             // 
-            // winTimer
+            // skipButton
             // 
-            this.winTimer.Interval = 2500;
-            this.winTimer.Tick += new System.EventHandler(this.winTimer_Tick);
+            this.skipButton.BackgroundImage = global::Escape_The_Haunted_Forest__BOO__.Properties.Resources.RedArrow1;
+            this.skipButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.skipButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.skipButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.skipButton.ForeColor = System.Drawing.Color.Transparent;
+            this.skipButton.Location = new System.Drawing.Point(664, 489);
+            this.skipButton.Name = "skipButton";
+            this.skipButton.Size = new System.Drawing.Size(172, 82);
+            this.skipButton.TabIndex = 3;
+            this.skipButton.UseVisualStyleBackColor = true;
+            // 
+            // guessPic
+            // 
+            this.guessPic.BackColor = System.Drawing.Color.Transparent;
+            this.guessPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guessPic.Location = new System.Drawing.Point(324, 12);
+            this.guessPic.Name = "guessPic";
+            this.guessPic.Size = new System.Drawing.Size(201, 436);
+            this.guessPic.TabIndex = 0;
+            this.guessPic.TabStop = false;
             // 
             // pictureForm
             // 
@@ -171,8 +171,8 @@
             this.Text = "Picture Game";
             this.Load += new System.EventHandler(this.pictureForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.pictureForm_KeyDown);
-            ((System.ComponentModel.ISupportInitialize)(this.guessPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.confettiPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guessPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

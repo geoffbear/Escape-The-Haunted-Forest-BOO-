@@ -306,5 +306,11 @@
   <ItemGroup>
     <None Include="Resources\NickMed.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DrumRoll.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yay.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
